@@ -36,14 +36,14 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
-        run: cd && npm install
+        run: npm install
       - name: Build with VitePress
-        run: cd && npm run docs:build
+        run: npm run docs:build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload the build output directory
-          path: ./.vitepress/dist
+          path: .vitepress/dist
 
   # Deployment job
   deploy:
