@@ -16,7 +16,7 @@ In this draft, consider the role of style and emerging techniques in your narrat
 ## Instructions
 
 1. Review your feedback for the hypertext narrative.
-   1. If you are unsure about how feedback works, please see these [guidelines](/toolkit/feedback-and-critique.md).
+   1. If you are unsure about how feedback works, please see these [guidelines](/toolkit/feedback-and-critique.html).
 2. Reflect on how your work can be improved. Analyze, interpret, and apply relevant feedback to improve the project.
 3. Record the changes that you made to the hypertext narrative.
 4. Publish the HTML file.

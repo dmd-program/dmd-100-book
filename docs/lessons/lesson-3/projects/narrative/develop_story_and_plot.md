@@ -32,7 +32,7 @@ Produce a document with the following items:
 8. **Bibliography**
    * List any articles, books, websites, or other sources used in your topic research. Use a [citation generator](https://www.scribbr.com/apa-citation-generator/) to create citations in either APA or MLA format.
 9. **Character list**
-   * List the people who would need to see this story in order for it to become a reality? Who are the decision makers that can make this happen? Who are the organizers, supporters, proponents, and opponents? These people are your characters. Read the [character topic](/topics/character.md) for more details.
+   * List the people who would need to see this story in order for it to become a reality? Who are the decision makers that can make this happen? Who are the organizers, supporters, proponents, and opponents? These people are your characters. Read the [Character](/topics/character.html) for more details.
 10. **Plot structure**
     1. The way it was
     2. And then one day...
