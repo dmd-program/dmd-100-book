@@ -12,12 +12,53 @@ body[data-embed="true"] aside.VPSidebar {
   display: none !important;
 }
 
+/* Hide mobile hamburger menu and sidebar */
+body[data-embed="true"] .VPNavBarHamburger,
+body[data-embed="true"] .VPNavScreen,
+body[data-embed="true"] .VPNavScreenMenu,
+body[data-embed="true"] .VPMobileNav,
+body[data-embed="true"] [class*="hamburger"],
+body[data-embed="true"] [class*="menu-button"] {
+  /* display: none !important; */
+  /* opacity: 0 !important; */
+    visibility: hidden !important;
+}
+
+/* Target the specific mobile menu button */
+body[data-embed="true"] button.menu,
+body[data-embed="true"] .menu-icon,
+body[data-embed="true"] .menu-text,
+body[data-embed="true"] .vpi-align-left {
+  /* display: none !important; */
+  visibility: hidden !important;
+}
+
+/* Handle any potential mobile-specific container classes */
+body[data-embed="true"] .mobile-only,
+body[data-embed="true"] [class*="mobile-nav"],
+body[data-embed="true"] [class*="mobile-menu"] {
+  /* display: none !important; */
+}
+
+@media (min-width: 960px) {
+    body[data-embed="true"] .VPLocalNav {
+        top: inherit !important;
+    }
+@media (min-width: 960px) {
+    body[data-embed="true"] .VPLocalNav.has-sidebar {
+        padding-left: 0 !important;
+    }
+}
+
 body[data-embed="true"] .VPContent,
 body[data-embed="true"] main.VPContent {
   padding-top: 0 !important;
   padding-left: 0 !important;
   margin-left: 0 !important;
   margin-top: 0 !important;
+  /* Ensure full width on mobile */
+  width: 100% !important;
+  max-width: 100% !important;
 }
 
 /* Hide footer in embed mode */
@@ -30,4 +71,9 @@ body[data-embed="true"] .VPFooter {
 body[data-embed="true"] .edit-link,
 body[data-embed="true"] .DocFooter {
   display: none !important;
+}
+
+/* Prevent scrolling on the root document when embedded */
+body[data-embed="true"] {
+  overflow-x: hidden;
 }
