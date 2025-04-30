@@ -32,7 +32,7 @@ jobs:
         with:
           node-version: 18 # Or your preferred Node.js version
           cache: 'npm'
-          cache-dependency-path: './vitepress-dmd-100/package-lock.json' # Fixed path with explicit relative notation
+          cache-dependency-path: 'package-lock.json' # Corrected path for the package-lock.json file
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
