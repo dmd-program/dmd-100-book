@@ -32,18 +32,18 @@ jobs:
         with:
           node-version: 18 # Or your preferred Node.js version
           cache: 'npm'
-          cache-dependency-path: 'package-lock.json' # Corrected path for the package-lock.json file
+          cache-dependency-path: /package-lock.json' # Corrected path to the package-lock.json file
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
-        run: cd vitepress-dmd-100 && npm install
+        run: cd && npm install
       - name: Build with VitePress
-        run: cd vitepress-dmd-100 && npm run docs:build
+        run: cd && npm run docs:build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload the build output directory
-          path: ./vitepress-dmd-100/.vitepress/dist
+          path: ./.vitepress/dist
 
   # Deployment job
   deploy:
