@@ -41,6 +41,9 @@ export default defineConfig({
   title: "DMD 100",
   description: "Digital Multimedia Design 100 Course Content",
   
+  // Add base configuration for GitHub Pages
+  base: '/dmd-100-book/', // Replace with your actual repository name
+  
   // Use transformHead to inject script and styles
   transformHead(context) {
     // Add the script tag to the head
