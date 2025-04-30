@@ -314,6 +314,11 @@ export default defineConfig({
       { text: 'License', link: '/LICENSE' } // Assuming LICENSE.md is at the root
     ],
 
+    editLink: {
+      pattern: 'https://github.com/dmd-program/dmd-100-book/edit/main/docs/:path',
+      text: 'Edit this page on GitHub'
+    },
+
     socialLinks: [
       // Add social links if needed, e.g., { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
