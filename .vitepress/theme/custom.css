@@ -1,0 +1,24 @@
+/* .vitepress/theme/custom.css */
+
+/* Test rule - make the background red when embedded */
+html.is-embedded body {
+  background-color: red !important;
+}
+
+/* Add styles to hide nav and sidebar when embedded */
+:root.is-embedded .VPNav {
+  display: none !important; /* Added !important */
+}
+
+:root.is-embedded .VPSidebar {
+  display: none !important; /* Added !important */
+}
+
+:root.is-embedded .VPContent {
+  padding-top: 0 !important;
+  padding-left: 0 !important;
+}
+
+:root.is-embedded .VPContent.has-sidebar {
+    padding-left: 0 !important;
+}

@@ -1,0 +1,33 @@
+/* Styles for embedded mode */
+
+/* Hide navigation elements when embed parameter is present */
+body[data-embed="true"] .VPNav,
+body[data-embed="true"] .VPNavBar,
+body[data-embed="true"] header.VPNav {
+  display: none !important;
+}
+
+body[data-embed="true"] .VPSidebar,
+body[data-embed="true"] aside.VPSidebar {
+  display: none !important;
+}
+
+body[data-embed="true"] .VPContent,
+body[data-embed="true"] main.VPContent {
+  padding-top: 0 !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Hide footer in embed mode */
+body[data-embed="true"] footer,
+body[data-embed="true"] .VPFooter {
+  display: none !important;
+}
+
+/* Hide any edit links or doc footer in embed mode */
+body[data-embed="true"] .edit-link,
+body[data-embed="true"] .DocFooter {
+  display: none !important;
+}

@@ -1,9 +1,73 @@
 import { defineConfig } from 'vitepress'
 
+// Extremely simple script that runs immediately
+const scriptContent = `
+  // Function runs as soon as the script is parsed
+  (function() {
+    // Get the embed parameter directly
+    const params = new URLSearchParams(window.location.search);
+    const embedParam = params.get('embed');
+    
+    // If embed=true, add the class immediately
+    if (embedParam === 'true') {
+      document.documentElement.classList.add('is-embedded');
+    }
+    
+    // Handle navigation changes through mutation observer
+    const observer = new MutationObserver(function(mutations) {
+      const params = new URLSearchParams(window.location.search);
+      const embedParam = params.get('embed');
+      
+      if (embedParam === 'true') {
+        document.documentElement.classList.add('is-embedded');
+      } else {
+        document.documentElement.classList.remove('is-embedded');
+      }
+    });
+    
+    // Start observing once DOM is ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function() {
+        observer.observe(document.body, { childList: true, subtree: true });
+      });
+    } else {
+      observer.observe(document.body, { childList: true, subtree: true });
+    }
+  })();
+`;
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "DMD 100",
   description: "Digital Multimedia Design 100 Course Content",
+  
+  // Use transformHead to inject script and styles
+  transformHead(context) {
+    // Add the script tag to the head
+    context.head.push(['script', {}, scriptContent]);
+    
+    // Add embedded view styles directly
+    context.head.push(['style', {}, `
+      /* Hide navigation elements when embedded */
+      .is-embedded .VPNav {
+        display: none !important;
+      }
+      
+      .is-embedded .VPSidebar {
+        display: none !important;
+      }
+      
+      .is-embedded .VPContent {
+        padding-top: 0 !important;
+        padding-left: 0 !important;
+      }
+      
+      .is-embedded .VPContent.has-sidebar {
+        padding-left: 0 !important;
+      }
+    `]);
+  },
+  
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
