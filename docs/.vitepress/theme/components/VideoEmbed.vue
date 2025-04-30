@@ -34,6 +34,7 @@
 
 <script setup>
 import { computed, ref, onMounted, onBeforeUnmount } from 'vue';
+import { withBase } from 'vitepress';
 
 const props = defineProps({
   // ... existing props ...
@@ -122,9 +123,8 @@ const embedUrl = computed(() => {
     const baseUrl = match ? `https://player.vimeo.com/video/${match[2]}` : props.src;
      return `${baseUrl}${baseUrl.includes('?') ? '&' : '?'}${params}`;
   } else if (isLocal.value) {
-    // Assume local paths starting with '/' are relative to the public dir
-     // Ensure local paths start with a slash if they are root-relative
-     return props.src.startsWith('/') ? props.src : `/${props.src}`;
+    // Use VitePress withBase helper to handle base path correctly
+    return withBase(props.src);
   }
   return props.src; // Fallback for unknown types or direct embed URLs
 });
