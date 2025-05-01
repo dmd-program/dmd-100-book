@@ -57,7 +57,7 @@ To build the static website for deployment:
     ```
     This command performs two steps:
     *   `vitepress build docs`: Compiles the Markdown files and VitePress application into static HTML, CSS, and JavaScript files in the `.vitepress/dist` directory.
-    *   `node scripts/generate-content-api.mjs`: After the build, this script runs automatically to generate a `content-api.json` file (likely placed in the build output directory). This API file probably contains metadata or structured content extracted from the Markdown files, which can be used by the frontend or other services.
+    *   `node scripts/generate-content-api.mjs`: After the build, this script runs automatically to generate a `content-api.json` file at the following url: `/api/content-api.json`.
 
 2.  The contents of the `.vitepress/dist` directory are ready to be deployed to any static hosting provider (like Netlify, Vercel, GitHub Pages, etc.).
 
