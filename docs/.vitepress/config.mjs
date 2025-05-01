@@ -108,7 +108,7 @@ export default defineConfig({
     siteUrl: 'https://dmd-program.github.io',
     
     // License visibility controls
-    showPageLicense: true,      // Controls display of page-specific licenses
+    showPageLicense: false,      // Controls display of page-specific licenses
     showSitewideLicense: true,  // Controls display of sitewide license
     
     // https://vitepress.dev/reference/default-theme-config
