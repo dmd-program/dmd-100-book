@@ -91,3 +91,19 @@ This project includes a script to find and check the status of external links wi
 
 *   **Script Location**: `scripts/generate-content-api.mjs`
 *   **Functionality**: This script is automatically executed as part of the `npm run docs:build` process. It scans the built Markdown content or source files to create a structured JSON representation (`content-api.json`) of the site's content or metadata. Consult the script's source code for specific details on what data it extracts and how it's structured.
+
+## Common Cartridge (IMSCC) Export
+
+This project includes a script to generate a Common Cartridge (IMSCC v1.1) package based on the VitePress site structure defined in `docs/.vitepress/config.mjs`.
+
+This allows importing the course structure (as defined by the sidebar) into Learning Management Systems (LMS) like Canvas, Moodle, etc. Each page link in the sidebar will be represented as a web link item in the cartridge, pointing to the corresponding page on the live site with an `?embed=true` parameter appended (suitable for embedding in an iframe).
+
+### Usage
+
+To generate the `.imscc` file, run the following command from the root of the `vitepress-dmd-100` directory:
+
+```bash
+node scripts/generate-common-cartridge.mjs
+```
+
+This will create a file named `common-cartridge-export.imscc` in the project root directory. You can then upload this file to your LMS.
