@@ -70,16 +70,19 @@ export default defineConfig({
       }
     `]);
     
+    // Check if frontmatter exists before accessing license property
+    const frontmatterLicense = context.frontmatter?.license;
+    
     // Get license type from frontmatter or default to cc-by
-    const licensePath = context.frontmatter.license === 'cc-by-sa' ? 'by-sa/4.0' :
-                       context.frontmatter.license === 'cc-by-nc' ? 'by-nc/4.0' : 
-                       context.frontmatter.license === 'cc-by-nc-sa' ? 'by-nc-sa/4.0' : 
-                       context.frontmatter.license === 'cc-by-nd' ? 'by-nd/4.0' : 
-                       context.frontmatter.license === 'cc-by-nc-nd' ? 'by-nc-nd/4.0' : 
+    const licensePath = frontmatterLicense === 'cc-by-sa' ? 'by-sa/4.0' :
+                       frontmatterLicense === 'cc-by-nc' ? 'by-nc/4.0' : 
+                       frontmatterLicense === 'cc-by-nc-sa' ? 'by-nc-sa/4.0' : 
+                       frontmatterLicense === 'cc-by-nd' ? 'by-nd/4.0' : 
+                       frontmatterLicense === 'cc-by-nc-nd' ? 'by-nc-nd/4.0' : 
                        'by/4.0';
     
     // Get author from frontmatter or default to site config
-    const pageAuthor = context.frontmatter.author || 'Michael Collins';
+    const pageAuthor = context.frontmatter?.author || 'Michael Collins';
     
     // Add Creative Commons license metadata (respects page-specific license)
     context.head.push(['link', { rel: 'license', href: `http://creativecommons.org/licenses/${licensePath}/` }]);
