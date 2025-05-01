@@ -1,3 +1,12 @@
+---
+# Override the default author
+author: Benjamin Andrew
+
+# Optionally override the license type (defaults to cc-by)
+license: cc-by
+showPageLicense: true    # Hide just the page-specific license on this page
+
+---
 # Figma Tutorial
 
 ## Figma account set up

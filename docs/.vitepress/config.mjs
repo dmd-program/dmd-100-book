@@ -69,14 +69,82 @@ export default defineConfig({
         padding-left: 0 !important;
       }
     `]);
+    
+    // Get license type from frontmatter or default to cc-by
+    const licensePath = context.frontmatter.license === 'cc-by-sa' ? 'by-sa/4.0' :
+                       context.frontmatter.license === 'cc-by-nc' ? 'by-nc/4.0' : 
+                       context.frontmatter.license === 'cc-by-nc-sa' ? 'by-nc-sa/4.0' : 
+                       context.frontmatter.license === 'cc-by-nd' ? 'by-nd/4.0' : 
+                       context.frontmatter.license === 'cc-by-nc-nd' ? 'by-nc-nd/4.0' : 
+                       'by/4.0';
+    
+    // Get author from frontmatter or default to site config
+    const pageAuthor = context.frontmatter.author || 'Michael Collins';
+    
+    // Add Creative Commons license metadata (respects page-specific license)
+    context.head.push(['link', { rel: 'license', href: `http://creativecommons.org/licenses/${licensePath}/` }]);
+    
+    // Page-specific author metadata
+    context.head.push(['meta', { property: 'cc:attributionName', content: pageAuthor }]);
+    context.head.push(['meta', { property: 'dc:creator', content: pageAuthor }]);
+    context.head.push(['meta', { property: 'schema:author', content: pageAuthor }]);
+    
+    // URL metadata
+    const pageUrl = `https://dmd-program.github.io/dmd-100-book/${context.pageData.relativePath.replace(/\\.md$/, '.html')}`;
+    context.head.push(['meta', { property: 'cc:attributionUrl', content: pageUrl }]);
+    context.head.push(['meta', { property: 'schema:url', content: pageUrl }]);
+    
+    // License metadata in multiple formats
+    context.head.push(['meta', { name: 'rights', content: `This work is licensed under a Creative Commons License: https://creativecommons.org/licenses/${licensePath}/` }]);
+    context.head.push(['meta', { property: 'schema:license', content: `https://creativecommons.org/licenses/${licensePath}/` }]);
   },
   
   themeConfig: {
+    // These properties will be accessible via theme in useData()
+    license: 'cc-by',
+    defaultAuthor: 'Michael Collins',
+    workTitle: 'DMD 100: Digital Multimedia Design Foundations',
+    // workUrl: 'https://dmd-program.github.io/dmd-100-book',
+    siteUrl: 'https://dmd-program.github.io',
+    
+    // License visibility controls
+    showPageLicense: true,      // Controls display of page-specific licenses
+    showSitewideLicense: true,  // Controls display of sitewide license
+    
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
       // Add other top-level navigation if needed
     ],
+
+    // Add search configuration
+    search: {
+      provider: 'local',
+      options: {
+        detailedView: true,
+        miniSearch: {
+          /**
+           * @type {import('minisearch').Options}
+           * @default
+           */
+          options: {
+            // Advanced search options
+            tokenize: (text) => text.split(/\\W+/),
+            processTerm: (term) => term.toLowerCase()
+          },
+          /**
+           * @type {import('minisearch').SearchOptions}
+           * @default
+           */
+          searchOptions: {
+            // Search options
+            boost: { title: 2, content: 1 },
+            fuzzy: 0.2,
+            prefix: true
+          }
+        }
+      }
+    },
 
     sidebar: [
       {

@@ -1,20 +1,19 @@
 // .vitepress/theme/index.js
 import DefaultTheme from 'vitepress/theme'
-import YouTubeEmbed from './YouTubeEmbed.vue'
-import VideoEmbed from './components/VideoEmbed.vue'
 import './custom.css'
-import './embed.css'  // Import our embed-specific CSS
+import { h } from 'vue'
+import LicenseFooter from './components/LicenseFooter.vue'
 
 export default {
-  ...DefaultTheme,
+  extends: DefaultTheme,
   enhanceApp({ app }) {
-    // Register global components
-    app.component('YouTubeEmbed', YouTubeEmbed)
-    app.component('VideoEmbed', VideoEmbed)
-    
-    // Load our embed script on the client-side
-    if (typeof window !== 'undefined') {
-      import('./embed.js')
-    }
+    // Register the license component so it can be used in markdown
+    app.component('LicenseFooter', LicenseFooter)
+  },
+  Layout() {
+    return h(DefaultTheme.Layout, null, {
+      // Add the LicenseFooter component to the end of the content area
+      'doc-after': () => h(LicenseFooter)
+    })
   }
 }
