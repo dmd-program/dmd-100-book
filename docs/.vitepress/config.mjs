@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+// Import the footnote plugin
+import footnote from 'markdown-it-footnote'
 
 // Extremely simple script that runs immediately
 const scriptContent = `
@@ -43,6 +45,13 @@ export default defineConfig({
   
   // Add base configuration for GitHub Pages
   base: '/dmd-100-book/', // Replace with your actual repository name
+  
+  // Configure the markdown parser to use the footnote plugin
+  markdown: {
+    config: (md) => {
+      md.use(footnote)
+    }
+  },
   
   // Use transformHead to inject script and styles
   transformHead(context) {
