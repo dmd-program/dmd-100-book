@@ -6,7 +6,7 @@
       <div class="license-section">
         <!-- Page-specific license with RDFa attributes -->
         <p v-if="showPageLicense" class="license-text" 
-           prefix="cc: http://creativecommons.org/ns# dc: http://purl.org/dc/terms/ schema: https://schema.org/"
+           v-bind:attr="{ prefix: 'cc: http://creativecommons.org/ns# dc: http://purl.org/dc/terms/ schema: https://schema.org/' }"
            typeof="schema:CreativeWork cc:Work">
           This work, <a :href="currentPageUrl" property="schema:url dc:source">"{{ pageTitle }}"</a>, 
           by <span property="schema:author dc:creator">{{ pageAuthor }}</span> is licensed under 
@@ -15,7 +15,7 @@
         
         <!-- Entire work license with RDFa attributes -->
         <p v-if="showSitewideLicense" class="license-text"
-           prefix="cc: http://creativecommons.org/ns# dc: http://purl.org/dc/terms/ schema: https://schema.org/"
+           v-bind:attr="{ prefix: 'cc: http://creativecommons.org/ns# dc: http://purl.org/dc/terms/ schema: https://schema.org/' }"
            typeof="schema:CreativeWork cc:Work">
           The entire work, <a :href="workUrl" property="schema:url dc:source">"{{ workTitle }}"</a>, 
           by <span property="schema:author dc:creator">{{ workAuthor }}</span> is licensed under 
