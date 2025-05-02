@@ -20,7 +20,7 @@ This course is designated as a "c-required course." From the bulletin descriptio
 ## Materials
 
 1. Journal 
-   * Any journal is fine. I recommend the Moleskine Cahier Journal, Large, Squared, Kraft Brown, Soft Cover \(5 x 8.25\) [Amazon purchase link](https://www.amazon.com/Moleskine-Cahier-Journal-Large-Squared/dp/8883704991)
+   * Any journal is fine. I recommend the Moleskine Cahier Journal, Large, Squared, Kraft Brown, Soft Cover \(5 x 8.25\)
 2. Pens, pencils, markers
    * Any that you already own are fine, you do not need to purchase special ones for this course. However, the following recommendations are professional grade if you are so inclined to invest in quality drawing tools.
       * Pencil: Palomino Blackwing 602
@@ -33,7 +33,3 @@ This course is designated as a "c-required course." From the bulletin descriptio
 ## Book
 
 We will be reading _Design and Truth_ by Robert Grudin. You will need to purchase a copy of this book.
-
-## Misc
-
-Students get [free Amazon Prime](https://www.amazon.com/gp/help/customer/display.html?nodeId=201133690) shipping.
