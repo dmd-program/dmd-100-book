@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs && node scripts/generate-content-api.mjs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "docs:cc": "node scripts/generate-common-cartridge.mjs"
   },
   "keywords": [],
   "author": "",
