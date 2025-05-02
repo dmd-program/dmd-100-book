@@ -41,7 +41,7 @@ const scriptContent = `
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "DMD 100",
-  description: "Digital Multimedia Design 100 Course Content",
+  description: "Digital Multimedia Design Foundations",
   
   // Add base configuration for GitHub Pages
   base: '/dmd-100-book/', // Replace with your actual repository name
