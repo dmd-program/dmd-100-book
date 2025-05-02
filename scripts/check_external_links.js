@@ -14,7 +14,9 @@ const scriptDir = __dirname;
 const vitepressDir = path.resolve(scriptDir, '..'); // Assumes script is in vitepress-dmd-100/scripts
 const workspaceRoot = path.resolve(vitepressDir, '..'); // Assumes vitepress-dmd-100 is in workspace root
 const fullSearchPath = path.join(vitepressDir, 'docs'); // Search within the vitepress docs folder
-const outputCsvPath = path.join(workspaceRoot, outputCsvFile); // Output to workspace root
+
+// Change the output path to be in the project folder (vitepressDir) instead of workspace root
+const outputCsvPath = path.join(vitepressDir, outputCsvFile); // Output to the project root
 
 const foundLinks = []; // Stores { url, filePath, line }
 
