@@ -8,7 +8,7 @@ People spend a great deal of time doing **impression management**, that is, mana
 
 Psychologists say there are six major traits that differentiate the personality of human minds.
 
-> A century of psychology has identified six major dimensions of variation that predict human behavior and that are salient to us. These are the key individual differences that distinguish human minds. These are mental traits that can be measured with good reliability and validity, that are genetically heritable, and stable across the life span, that predict behavior across diverse settings and domains, \(school, work, leisure, consumption, and family life\), and that seem to be universal across cultures and even across many animal species. \[1\]
+> A century of psychology has identified six major dimensions of variation that predict human behavior and that are salient to us. These are the key individual differences that distinguish human minds. These are mental traits that can be measured with good reliability and validity, that are genetically heritable, and stable across the life span, that predict behavior across diverse settings and domains, \(school, work, leisure, consumption, and family life\), and that seem to be universal across cultures and even across many animal species. [^1]
 
 Identified with the acronym, **GOCASE**, each letter represents a different trait. **G** represents general intelligence, **O** represents openness to experience, **C** is for conscientiousness and self-control,  **A** is for agreeableness and kindness, **S** is for stability in emotion, and **E** is for extraversion. Conceivably, if you have an ability to understand a person based on those traits, you will have a good idea about how they will behave in different circumstances. Marketers have concerned themselves with selling products to people by appealing to these personality traits.
 
@@ -16,7 +16,7 @@ Identified with the acronym, **GOCASE**, each letter represents a different trai
 
 > The propagandist must treat personality as he would treat any other objective fact within his province.
 >
-> – Edward Bernays \[2\]
+> – Edward Bernays [^2]
 
 Propaganda** **is used to sell products just as it is to galvanize mass consensus around political viewpoints, and as Edward Bernays will argue, "... such organization and focusing are necessary to orderly life." After World War II, the term took on a more sinister meaning due to the Nazi's considerable and effective use of design and media for propagandistic and tragic ends. Edward Bernays, considered the father of public relations \(a term synonymous with advertising and propaganda\), authored a book in 1928 aptly named, [_Propaganda_](http://www.historyisaweapon.org/defcon1/bernprop.html). Bernays, Sigmund Freud's nephew, applied Freudian ideas of unconscious desire for selling  products and manipulation of mass opinion, inventing techniques that are in standard use today by politicians and corporations. In the opening paragraph of _Propaganda_, Bernays writes, "The conscious and intelligent manipulation of the organized habits and opinions of the masses is an important element in a democratic society. Those who manipulate this unseen mechanism of society constitute an invisible government which is the ruling power of our country." Bernays did not believe that a democratic society could be left to run itself without propaganda and that daily life would be otherwise too burdensome. He could not have predicted the impact of technology like the Internet, which provides near instantaneous access to multiple political viewpoints, fact-checking, product reviews, and other information which simultaneously undermines and expands the influence of propaganda on an individual.
 
@@ -38,10 +38,8 @@ Good branding will communicate the product's attributes and benefits to a person
 
 In corporate branding, the market drives brand identity design for the purpose of attracting customers, clients, suppliers, investors, and other stakeholders. Branding can help a company to promote a kind of historical heritage, disruptive newness, or another set of values in order to appeal to a target market. Logos, word-marks, letterhead, packaging, architecture, corporate culture, product aesthetics, social impact, and leadership personalities all contribute to the brand identity.
 
-## Citations
-
-1. Miller, Geoffrey. Spent: Sex, Evolution, and Consumer Behavior. 2009. Page 144
-2. Bernays, Edward. Propaganda. 1928
+[^1]: Miller, Geoffrey. Spent: Sex, Evolution, and Consumer Behavior. 2009. Page 144
+[^2]: Bernays, Edward. Propaganda. 1928
 
 
 

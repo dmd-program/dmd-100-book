@@ -170,11 +170,6 @@ A graph structure is where all nodes simultaneously connect with every other nod
 
 Quite often, no perfect model exists for the kind of story that needs to be told. Part of the creative process for writing a narrative is producing the model that can best support the story.
 
-## Citation
+## References
 
 1. [Digital Storytelling: A Creator's Guide to Interactive Entertainment. Carolyn Handler Miller. 2014. ISBN-10: 0415836948](http://www.amazon.com/Digital-Storytelling-creators-interactive-entertainment/dp/0415836948)
-2. [On Story, Plot, and Narrative in Games](https://livewareblog.wordpress.com/2013/09/09/on-story-plot-and-narrative-in-games/)
-3. [There is no such thing as narrative art](http://www.bu.edu/arion/volume-18-barolsky-narrative-art/)
-
-
-

@@ -1,4 +1,8 @@
-Written by Gabrielle Kennedy and published in _Open Design Now!_
+---
+author: Paul Atkinson
+license: cc-nc-by-3.0
+showPageLicense: true    # Hide just the page-specific license on this page
+workUrl: https://opendesignnow.org/index.html%3Fp=399.html
 
 ---
 
@@ -10,7 +14,7 @@ Written by Gabrielle Kennedy and published in _Open Design Now!_
 
 The concepts of open design – the collaborative creation [SHARE](http://opendesignnow.org/index.php/tag/share/index.html)of artefacts by a dispersed group of otherwise unrelated individuals – and of individualized production – the direct digital manufacture of goods at the point of use – at first sound like something from a utopian science fiction film. And yet, here we are. We can now easily download designs [DOWNLOADABLE DESIGN](http://opendesignnow.org/index.php/tag/downloadable_design/index.html)from the internet, alter them at will to suit our own needs and then produce perfect products at the push of a button. Magic.
 
-### Back to the Future
+## Back to the Future
 
 In many ways though, there are huge similarities here to much older practices of production and consumption. The emergence of Do It Yourself [DIY](http://opendesignnow.org/index.php/tag/diy/index.html)as a necessity for many is lost in the mists of time, but defined as a leisure pursuit, a pastime, it emerged from a perceived need to ‘keep idle hands busy’. In the hours following a long working day, it acted only to bring the Victorian work ethic from the factory into the home. DIY = productive leisure.
 
@@ -27,23 +31,23 @@ The processes of technological development that have variously brought amateur a
 The appearance of Rapid Prototyping [HELLO WORLD](http://opendesignnow.org/index.php/tag/hello_world/index.html)technologies in the mid-1980s, at first high-level and hugely expensive machines, allowed mass production processes requiring investment in costly tooling to be neatly sidestepped, making it possible to produce one-off products cost-effectively. Low-cost descendants of these – the designs for which are themselves disseminated and downloaded via the internet and made by hand – now enable the desktop manufacture of individualized products in the home.  
 [DOWNLOADABLE DESIGN](http://opendesignnow.org/index.php/tag/downloadable_design/index.html)Technology has moved the goalposts from a position of co-creation to one where the user has the capability to completely design and manufacture products by themselves. It is a return, if you will, to a cottage industry model of production and consumption that has not been seen since the earliest days of the Industrial Revolution. What at first glance appears to be a futuristic fantasy is revealed, in fact, to be just the opposite: a recurrence of past ways of doing things.
 
-### Orchestral Manoeuvres
+## Orchestral Manoeuvres
 
 We have seen how this situation of open design and production occurred through the technological development of tools and materials, and a change in the standing of the individual’s opinion. Both factors increased in importance with the introduction of wide accessibility to the internet and low-cost machines for direct digital manufacture. We can safely assume that open source versions of these machines, such as the ‘CupCake’ CNC rapid prototyping machine produced by MakerBot Industries7, the desktop rapid prototyper ‘Model 1 Fabber’ from Fab@Home8, or the self-replicating rapid prototyper the ‘RepRap9’, will continue to grow in capability, becoming more and more efficient, more accurate and able to use a wider range of raw materials. Such is the nature of open development.10
 
-### IN OPEN DESIGN, THE CULT OF THE CONNOISSEUR HAS GIVEN WAY TO THE CULT OF THE AMATEUR – THOSE WHO KNOW THEMSELVES WHAT IS BEST FOR THEM.
+## IN OPEN DESIGN, THE CULT OF THE CONNOISSEUR HAS GIVEN WAY TO THE CULT OF THE AMATEUR – THOSE WHO KNOW THEMSELVES WHAT IS BEST FOR THEM.
 
 It appears, then, that there are two physical aspects to be considered in making such technologies more acceptable to the wider public: the development of more user-friendly interfaces, or more intuitive systems for creating three-dimensional designs in the first place; and the distribution of materials in forms suitable for use in such machines. No doubt web-based supply infrastructures will appear as a matter of course as the demand for materials increases, but many current open design systems still require fairly high-level CAD modelling skills [KNOWLEDGE](http://opendesignnow.org/index.php/tag/knowledge.1.html) in order to produce designs in a digital form.
 
 Since 2002, I have been leading research projects within the Post Industrial Manufacturing Research Group, initially at the University of Huddersfield and since 2008 at Sheffield Hallam University. This work has explored the development of effective user interfaces to enable the open design of products, with the express intention of increasing amateur involvement in the design process and reducing the distance between amateur and professional. It has pushed such technologies through projects by the industrial designer Lionel T. Dean11and by the artist/maker Justin Marshall.12
 
-### Future Factories
+## Future Factories
 
 The web portal of FutureFactories allowed observers to watch computer models of organic forms for products such as light fittings, candlesticks and furniture randomly mutating in real time, freeze the design at any point and save the resulting file for later production by rapid prototyping. Marshall’s Automake project went a stage further, and gave the user more ability to interact with the design by allowing them to manipulate various computer-generated mesh envelopes within which selected components would randomly be placed by the computer until a finished form appeared, which could then be printed. [PRINTING](http://opendesignnow.org/index.php/tag/printing.1.html) Depending on the mesh chosen and the scale selected, the finished results could range from fruit bowls and vases down to bracelets and rings.
 
 The exhibition I curated at the Hub National Centre for Design and Craft in May 2008  EVENTS  showed the results of both these projects and allowed visitors to the exhibition to try out the Automake software for themselves. The outputs created were first printed out as colour photographs, becoming part of a growing display wall. A selection of those photographs were printed in 3D [AESTHETICS: 3D](http://opendesignnow.org/index.php/tag/aesthetics_3d/index.html) by the industrial sponsor each week and added to the exhibition. Visitors returned again and again to see the expanding displays, with those whose work was selected and manufactured proudly bringing friends and relatives to see the results of their endeavours. These people said it was the first creative thing they had ever done, and that they could not have achieved it without the Automake system. The system enabled them to engage in a form of design and production that questioned their familiar relationship with the object.
 
-### Generative Software
+## Generative Software
 
 Numerous systems that employ generative software and allow users to manipulate designed forms for pieces of jewellery and then have them produced by lost-wax casting or laser cutting followed soon after. One of the best known is ‘Nervous System’.13Visitors to their site can either buy ready-made pieces created using their software, or run various simple interactive applets and manipulate screen designs based on organic structures such as amoebas, orchids, lichen and algae to create their own unique pieces, which can then be saved and manufactured by the supplier.  
 [AESTHETICS: 3D](http://opendesignnow.org/index.php/tag/aesthetics_3d/index.html) The result is a growing open design library of unique but closely related forms. The code for the software is also released under a Creative Commons licence to encourage others to produce similar work.
@@ -64,7 +68,7 @@ This anticipated change of role would potentially have a huge impact. The relati
 
 These orchestral manoeuvres in design will change everything for everybody, but while there may be troubles ahead, it is not all doom and gloom. The innate ability of design to adapt to change will surely be its saviour.
 
-NOTES
+## Notes
 
 1. See Atkinson, P, ‘Do It Yourself: Democracy and Design’,_Journal of Design History_, 19\(1\), 2006, p. 1-10. 
 2. “\[P\]rofessional attitudes to \[amateur design\] activities have continued to oscillate between fear and admiration.” Beegan, G and Atkinson, P, ‘Professionalism, Amateurism and the Boundaries of Design’,_Journal of Design History_, 21\(4\), 2008, p. 312.
@@ -80,6 +84,3 @@ NOTES
 12. www.automake.co.uk
 13. [n-e-r-v-o-u-s.com](http://n-e-r-v-o-u-s.com/)
 14. As Tadeo Toulis wrote: “Failure to appreciate DIY/Hack Culture is to risk having professional design become as irrelevant to the contemporary landscape as record labels and network television are in the age of iTunes and YouTube.” Toulis, T, ‘Ugly: How unorthodox thinking will save design’,_Core 77_, October 2008 \([www.core77.com/blog/featured\_items/ugly\_how\_unorthodox\_thinking\_will\_save\_design\_by\_tad\_toulis\_11563.asp,](http://www.core77.com/blog/featured_items/ugly_how_unorthodox_thinking_will_save_design_by_tad_toulis_11563.asp,)accessed 30 September 2010\).
-
-This article published with a Creative Commons 3.0 License. _Open Design Now!_. URL: [http://opendesignnow.org/index.html%3Fp=399.html](http://opendesignnow.org/index.html%3Fp=399.html). Accessed May 10th, 2017
-

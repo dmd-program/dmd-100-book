@@ -4,7 +4,7 @@
 
 > "In an ambiguous situation, you don't know what you don't know."
 >
-> – Udaya Patnaik, Co-Founder Jump Associates
+> – Udaya Patnaik, Co-Founder Jump Associates[^1]
 
 Design Thinking is the most current incarnation of terminology meant to frame and ascribe value for the role of creative problem solving within a larger system. Generally speaking, design thinking refers the methods used to strategically guide a person or group to question underlying assumptions, generate a large array of ideas, better understand user needs, synthesize prototypes, propose or build viable solutions, and more. Its roots can be traced to Participatory Design, User-Centered Design, Service Design, and Human-Centered Design. Imagining a new idea, let alone 100 new ideas, is hard and often comes with overcoming learned blocks to creative thinking. To make this process easier, modern design thinking methods tend to incorporate synectics, or methods that facilitate the connection of ideas through unrelated phenomenon.
 
@@ -28,7 +28,7 @@ On page 158 in Victor Papanek's _Design for the Real World, Human Ecology and So
 
 ## Beginner's mindset
 
-A designer's approach to questioning of assumptions, known as the beginners mindset, is helpful for bypassing stereotypes and misconceptions that often inhibit empathetic discoveries. How a person acquires the beginner's mindset can vary. Here is an example from the Hasso Plattner Institute of Design at Stanford: \[2\]
+A designer's approach to questioning of assumptions, known as the beginners mindset, is helpful for bypassing stereotypes and misconceptions that often inhibit empathetic discoveries. How a person acquires the beginner's mindset can vary. Here is an example from the Hasso Plattner Institute of Design at Stanford: [^2]
 
 1. **Don’t judge.** Just observe and engage users without the influence of value judgments upon their actions, circumstances, decisions, or “issues.”
 2. **Question everything.** Question even \(and especially\) the things you think you already understand. Ask questions to learn about how the user perceives the world. Follow up an answer to one “why” with a second “why.”
@@ -53,7 +53,7 @@ We won't go into detail about what each of Papanek's methods are; however, we wi
 
 ## Embracing V.U.C.A.
 
-> Now change seems to be much more unpredictable; it exceeds what we have known in the past. As we view the world, we realize organizations reflect society and political needs, which accommodate expanding democracy and periods of turmoil. Bureaucracies may remain the foundation for basic stability during these periods of rapid change, but they will have to be more open and adaptable to be effective – or even to survive. \[2\]
+> Now change seems to be much more unpredictable; it exceeds what we have known in the past. As we view the world, we realize organizations reflect society and political needs, which accommodate expanding democracy and periods of turmoil. Bureaucracies may remain the foundation for basic stability during these periods of rapid change, but they will have to be more open and adaptable to be effective – or even to survive. [^2]
 
 Critical design failures tend to occur when tried-and-true processes, procedures, and policies are applied to solve a problem in an environment that is undergoing change. In these environments, creative problem solving and innovation are needed to address this change. The value of design thinking comes from its ability to deal in uncertainty in a dynamic environment. The acronym, V.U.C.A., created by the U.S. Army War College, describes this phenomenon – volatility, uncertainty, complexity and ambiguity.
 
@@ -67,7 +67,7 @@ Design thinking processes equip designers with heuristic devices that help us av
 
 ## The Business Case for Design Thinking
 
-Jess McMullin, founder of the Centre for Citizen Experience and Situ Strategy, describes a continuum of design maturity for organizations in his model, _A Rough Design Maturity Continuum. _ There are five stages which range from having no strategic design to using design for identifying and framing central challenges and opportunities.
+Jess McMullin, founder of the Centre for Citizen Experience and Situ Strategy, describes a continuum of design maturity for organizations in his model, _A Rough Design Maturity Continuum._ There are five stages which range from having no strategic design to using design for identifying and framing central challenges and opportunities.
 
 1. **No conscious design:** The organization has assigned no value or priority to design. The product that results is deemed good enough.
 2. **Style:** Design is considered a secondary cosmetic process that makes a product more palatable for consumption. Aesthetic trends drive products.
@@ -75,14 +75,11 @@ Jess McMullin, founder of the Centre for Citizen Experience and Situ Strategy, d
 4. **Problem solving:** Design is used in strategic processes for identifying opportunities, generating an array of ideas, and selecting solutions for existing problems. Problems drive products.
 5. **Framing:** Design drives disruptive innovation. Design is used to frame the organization's agenda, and to scope interest. Ideas drive products.
 
-The organizations that incorporate design into the framing and problem solving end of the design maturity continuum are highlighted in the [Design Value Index \(DVI\)](http://www.dmi.org/?page=2015DVIandOTW). The superior performance of the index in relation to the S&P 500 is used to make the case not only for investing in design-driven companies, but as further evidence for why design should take a larger role within large organizations.
+The organizations that incorporate design into the framing and problem solving end of the design maturity continuum are highlighted in the [Design Value Index \(DVI\)](http://www.dmi.org/?page=2015DVIandOTW). [^3] The superior performance of the index in relation to the S&P 500 is used to make the case not only for investing in design-driven companies, but as further evidence for why design should take a larger role within large organizations.
 
-## Citation
-
-1. _Design and Thinking_. Dir. Mu-Ming Tsai. 2012. Film.
-2. James A. Lawrence and Earl N. Steck, _Overview of Management Theory _\(Carlisle Barracks, PA: U.S. Army War College, 1991\), ii & 34. [http://www.dtic.mil/dtic/tr/fulltext/u2/a235762.pdf](http://www.dtic.mil/dtic/tr/fulltext/u2/a235762.pdf)
-3. [http://thinkingandmaking.com/files/design\_maturity.pdf](http://thinkingandmaking.com/files/design_maturity.pdf)
-4. [http://www.dmi.org/?page=2015DVIandOTW](http://www.dmi.org/?page=2015DVIandOTW)
+[^1]: Design and Thinking. Dir. Mu-Ming Tsai. 2012. Film.
+[^2]: James A. Lawrence and Earl N. Steck, Overview of Management Theory (Carlisle Barracks, PA: U.S. Army War College, 1991), ii \& 34. [https://apps.dtic.mil/sti/tr/pdf/ADA235762.pdf](https://apps.dtic.mil/sti/tr/pdf/ADA235762.pdf)
+[^3]: Design Management Institute, Design Value Index (DVI). [http://www.dmi.org/?page=2015DVIandOTW](http://www.dmi.org/?page=2015DVIandOTW)
 
 
 

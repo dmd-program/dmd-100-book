@@ -83,12 +83,20 @@ export default defineConfig({
     const frontmatterLicense = context.frontmatter?.license;
     
     // Get license type from frontmatter or default to cc-by
+    // Add support for both 3.0 and 4.0 versions
     const licensePath = frontmatterLicense === 'cc-by-sa' ? 'by-sa/4.0' :
                        frontmatterLicense === 'cc-by-nc' ? 'by-nc/4.0' : 
                        frontmatterLicense === 'cc-by-nc-sa' ? 'by-nc-sa/4.0' : 
                        frontmatterLicense === 'cc-by-nd' ? 'by-nd/4.0' : 
                        frontmatterLicense === 'cc-by-nc-nd' ? 'by-nc-nd/4.0' : 
-                       'by/4.0';
+                       // Add 3.0 license versions
+                       frontmatterLicense === 'cc-by-3.0' ? 'by/3.0' :
+                       frontmatterLicense === 'cc-by-sa-3.0' ? 'by-sa/3.0' :
+                       frontmatterLicense === 'cc-by-nc-3.0' ? 'by-nc/3.0' : 
+                       frontmatterLicense === 'cc-by-nc-sa-3.0' ? 'by-nc-sa/3.0' : 
+                       frontmatterLicense === 'cc-by-nd-3.0' ? 'by-nd/3.0' : 
+                       frontmatterLicense === 'cc-by-nc-nd-3.0' ? 'by-nc-nd/3.0' : 
+                       'by/4.0'; // Default to CC BY 4.0
     
     // Get author from frontmatter or default to site config
     const pageAuthor = context.frontmatter?.author || 'Michael Collins';

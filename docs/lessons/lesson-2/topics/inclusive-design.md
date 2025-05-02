@@ -14,7 +14,7 @@ One way to think of ability is as a fluid state of being. An "able-bodied" perso
 
 > The chief handicap of the blind is not blindness, but the attitude of seeing people towards them.
 >
-> – Helen Keller
+> – Helen Keller[^1]
 
 However, human beings have potential for incredible accomplishment, regardless of whether they have a disability or not. The Inuit travel [enormous distances over seemingly featureless landscapes](http://www.sensorystudies.org/inuit-orienting-traveling-along-familiar-horizons/) with advanced navigation techniques that help them find their way; some of the blind have taught themselves [echolocation to sense the world](https://www.youtube.com/watch?v=ob-P2a6Mrjs), and amputees routinely complete [world championship triathlons](http://www.scottrigsby.com/ach.html) with the aid of advanced prosthetics, a feat most people who still have all of their limbs accounted for could not accomplish. Continued understanding of natural systems and technological advancements will enable people to do things in a few years that are just not possible to do today. It seems that design and the future of human ability are intrinsically-linked phenomenon.
 
@@ -22,3 +22,4 @@ However, human beings have potential for incredible accomplishment, regardless o
 
 The emergence of empathy strategies for designers has changed the way products and the built environment are created. Achieving empathy means that a designer would approximate the same user experience as one of their users by deliberately simulating physical, cognitive, and environmental constraints. For user-experience designers, there are a variety of digital tools including graphics software that simulates what colors would look like if you were colorblind, javascript libraries that simulate dyslexia, visual overlays that obscure parts of a computer screen to simulate visual impairments, and many others.
 
+[^1]: Keller, Helen. Speech for the American Foundation for the Blind , Washington, DC, 1925

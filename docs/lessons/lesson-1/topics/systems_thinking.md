@@ -13,7 +13,7 @@ If you consider that an expert in any given field is an expert on the system or 
 When thinking about a model to aid sustainable design, the term **Cradle to Cradle Design** was coined by German chemist Michael Braungart and U.S. architect William McDonough in their book, _Cradle to Cradle: Remaking the Way We Make Things._ Cradle to Cradle Design accounts for wellness, social, economic, and ecological systems in the design model when producing consumer products, infrastructure, and services. The Cradle to Cradle Design model is a shift in perspective on the traditional product lifecycle – known as Cradle to Grave, a model where products eventually cease to be useful – and instead imagine how products can be made of biological or technical "nutrients" that are reused over and over. As a proof of concept, their 2002 book was printed on special synthetic paper, intended to be an example of a technical nutrient.
 
 > This book is not a tree.  
-> It is printed on synthetic "paper" and bound into a book format developed by innovative book packager Charles Melcher of Melcher Media. Unlike the paper which we are familiar, it does not use any wood pulp or cotton fiber but is made from plastic resins and inorganic fillers. This material is not only waterproof, extremely durable, and \(in many localities\) recyclable by conventional means; it is also a prototype for the book as a "technical nutrient," that is, as a product that can be broken down and circulated infinitely in industrial cycles–made and re-made as "paper" or other products.\[1\]
+> It is printed on synthetic "paper" and bound into a book format developed by innovative book packager Charles Melcher of Melcher Media. Unlike the paper which we are familiar, it does not use any wood pulp or cotton fiber but is made from plastic resins and inorganic fillers. This material is not only waterproof, extremely durable, and \(in many localities\) recyclable by conventional means; it is also a prototype for the book as a "technical nutrient," that is, as a product that can be broken down and circulated infinitely in industrial cycles–made and re-made as "paper" or other products.[^1]
 
 ## The "S" word
 
@@ -29,7 +29,7 @@ The [Designers Accord](http://designersaccord.org/) was a five-year project that
 >
 > Talking about sustainable design is not the best way to talk about it.
 >
-> Focus on leadership skills, participation, transparency, engagement, networks, human centered design, respect, and active listening. Ask students to rethink current paradigms and to envision a better future. \[1\]
+> Focus on leadership skills, participation, transparency, engagement, networks, human centered design, respect, and active listening. Ask students to rethink current paradigms and to envision a better future. [^2]
 
 The [educational toolkit](http://edutoolkit.designersaccord.org/) also recommends that you do not use the word sustainability when incorporating it into a curriculum, and I have followed this recommendation for the most part within course projects and other assignments. Sustainability is a central part to all good design, though it's not specifically referenced. The Designers Accord is a clear example of an organized initiative to get designers thinking more systemically in terms of environmental and social impact.
 
@@ -63,7 +63,7 @@ Supposing this list was accurate, the next step would to be to better understand
 
 Critic Timothy Morton calls these systems **hyperobjects**. They are objects so large and complex, that humans can not perceive them in their entirety.
 
-> "The problem is bigger, it’s a system.” Curtis and I briefly discussed a word coined by the critic Timothy Morton to describe a problem so vast in space and time that you are unable to apprehend it: a “hyperobject.” Global warming is a classic example of a hyperobject: it’s everywhere and nowhere, too encompassing to think about. Global markets, too. But naming a hyperobject alone is of limited use; human cognition knows all too well how to file such imminent imponderables away, on a “to-do” list that’s never consulted again. \[3\]
+> "The problem is bigger, it’s a system.” Curtis and I briefly discussed a word coined by the critic Timothy Morton to describe a problem so vast in space and time that you are unable to apprehend it: a “hyperobject.” Global warming is a classic example of a hyperobject: it’s everywhere and nowhere, too encompassing to think about. Global markets, too. But naming a hyperobject alone is of limited use; human cognition knows all too well how to file such imminent imponderables away, on a “to-do” list that’s never consulted again. [^3]
 
 ## ‘Wicked’ problems
 
@@ -80,16 +80,14 @@ To adequately describe the difficulty of designing policies to fix complex socia
 9. How the problem is framed dictates how the problem is solved. (Bias heavily influences approach)
 10. Planners are responsible for negative outcomes that result from the actions they take. (The stakes are high)
 
-\[4\]
+[^4]
 
 This list might sound daunting, but don't despair – these are not necessarily unsolvable problems. Designers have been developing ways to attack the wicked problem for many years. These problems are where design thinkers and interdisciplinarian workers situate themselves. For some inspiration, see IDEO's open design community platform: https://www.openideo.com/
 
-## Citation
-
-1. McDonough, William; Braungart, Michael \(2002\). [Cradle to Cradle: Remaking the Way We Make Things](https://books.google.com/books?id=KFX5RprPGQ0C). North Point Press. p. 193. [ISBN](https://en.wikipedia.org/wiki/International_Standard_Book_Number) [0-86547-587-3](https://en.wikipedia.org/wiki/Special:BookSources/0-86547-587-3). Retrieved 28 December 2016.
-2. [The Designers Accord: Integrating sustainability into design education: The Toolkit](http://edutoolkit.designersaccord.org/how-can-we-create-a-common-language/). \(2009\) Retrieved 28 December 2016.
-3. Lethem, Jonathan. [Adam Curtis and the Secret History of Everything](http://www.nytimes.com/interactive/2016/10/30/magazine/adam-curtis-documentaries.html). The New York Times Magazine. October 27, 2016. Retrieved 28 December 2016.
-4. Rittel, Horst. "Dilemmas in a General Theory of Planning." Policy Sciences, 1973: 155-169.
+[^1]: McDonough, William; Braungart, Michael (2002). [Cradle to Cradle: Remaking the Way We Make Things](https://books.google.com/books?id=KFX5RprPGQ0C). North Point Press. p. 193. [ISBN](https://en.wikipedia.org/wiki/International_Standard_Book_Number) [0-86547-587-3](https://en.wikipedia.org/wiki/Special:BookSources/0-86547-587-3). Retrieved 28 December 2016.
+[^2]: [The Designers Accord: Integrating sustainability into design education: The Toolkit](http://edutoolkit.designersaccord.org/how-can-we-create-a-common-language/). (2009) Retrieved 28 December 2016.
+[^3]: Lethem, Jonathan. [Adam Curtis and the Secret History of Everything](http://www.nytimes.com/interactive/2016/10/30/magazine/adam-curtis-documentaries.html). The New York Times Magazine. October 27, 2016. Retrieved 28 December 2016.
+[^4]: Rittel, Horst. "Dilemmas in a General Theory of Planning." Policy Sciences, 1973: 155-169.
 
 
 

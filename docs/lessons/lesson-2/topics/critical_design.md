@@ -58,8 +58,6 @@ I've adapted this list from [Theory of Change Basics: A Primer on Theory of Chan
 
 If you look carefully at this list, you an also simultaneously locate a place for each step within the Double Diamond design process used throughout this course, further illustrating it's compatibility with other design processes. You can start to see where those steps, particularly in step 6, begin to line up within the PPPP model \(described by Voros\).
 
-# Citation
-
 1. [http://www.core77.com/posts/12232/the-4-fields-of-industrial-design-no-not-furniture-trans-consumer-electronics-toys-by-bruce-m-tharp-and-stephanie-m-tharp-12232](http://www.core77.com/posts/12232/the-4-fields-of-industrial-design-no-not-furniture-trans-consumer-electronics-toys-by-bruce-m-tharp-and-stephanie-m-tharp-12232). Accessed Oct 25, 2016
 2. [http://www.core77.com/posts/41991/What-is-Discursive-Design](http://www.core77.com/posts/41991/What-is-Discursive-Design). Accessed Oct 25, 2016
 3. [http://speculative.hr/en/introduction-to-speculative-design-practice/](http://speculative.hr/en/introduction-to-speculative-design-practice/). Accessed Dec 29, 2016

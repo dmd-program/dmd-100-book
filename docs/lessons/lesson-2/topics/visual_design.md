@@ -2,7 +2,7 @@
 
 The visual design process is purposeful creative production using visual design elements and applying design principles within the constraints of project objectives. Much of what we know about visual design was developed and perfected by the masters painters hundreds of years ago. The main goal of visual design is to take command over the viewer's eye, to lead it around a canvas or page for the purpose of communicating some feeling or meaning.
 
-> A certain painter, not without some reputation at the present day, once wrote a little book on the art he practises, in which he gave a definition of that art so succinct that I take it as a point of departure for this essay. “The art of painting,” says that eminent authority, “is the art of imitating solid objects upon a flat surface by means of pigments.” It is delightfully simple, but prompts the question—Is that all? And, if so, what a deal of unnecessary fuss has been made about it. \[2\]
+> A certain painter, not without some reputation at the present day, once wrote a little book on the art he practises, in which he gave a definition of that art so succinct that I take it as a point of departure for this essay. “The art of painting,” says that eminent authority, “is the art of imitating solid objects upon a flat surface by means of pigments.” It is delightfully simple, but prompts the question — Is that all? And, if so, what a deal of unnecessary fuss has been made about it. [^2]
 
 ## Aesthetics
 
@@ -20,7 +20,7 @@ In visual design, an aesthetic language is constructed from elements that are or
 6. Value \(tone\)
 7. Texture
 
-Common **principles of design**: \[1\]
+Common **principles of design**: [^1]
 
 1. Balance
 2. Dominance, emphasis, and focal point
@@ -73,7 +73,7 @@ One common way to make a judgement about a creative work is through Formal Analy
 
 Typography is an ancient field that employed typographers who were specialists in the craft of arranging type for the purpose of communicating written language. These specialists invented and understood every facet of working with type and were the only ones capable of producing it–they were both designers and the gatekeepers for what was produced. In contrast, the advent and availability of digital word processing applications have made typography accessible to everyone, and the knowledge of type's design nuances are lost on all but those who work at digital type studios and well-trained graphic designers.
 
-In 1439, a German goldsmith named Johannes Gutenberg had struck a business deal with investors to produce and sell small mirrors to Pilgrims at their fair in a nearby town. After discovering he was told the wrong year for the fair, he pitched the idea of the printing press to his business investors. In 1440, Johannes Gutenberg adapted existing screw press technology and metal type. Soon after, mechanized moveable-type became popular and the speed at which knowledge could be spread exploded and by the year 1500, over 20 million books had been printed.
+In 1439, a German goldsmith named Johannes Gutenberg had struck a business deal with investors to produce and sell small mirrors to Pilgrims at their fair in a nearby town. After discovering he was told the wrong year for the fair, he pitched the idea of the printing press to his business investors. In 1440, Johannes Gutenberg adapted existing screw press technology and metal type. Soon after, mechanized moveable-type became popular and the speed at which knowledge could be spread exploded and by the year 1500, over 20 million books had been printed.[^3]
 
 The printing press fundamentally changed how knowledge was recorded and disseminated, a disruptive technology that shifted power from the monolithic structure imposed by the Catholic church to individual change-makers spread across the west. Ultimately, this contributed to the de-centralization of power to localized nations, where language, laws, taxes, and cultural identities could develop independently.
 
@@ -87,8 +87,9 @@ It took John Singer Sargent more than a year to finish the Portrait of Madame X 
 
 ## Citations
 
-1. [http://www.getty.edu/education/teachers/building\_lessons/principles\_design.pdf](https://www.gitbook.com/book/dmd-program/dmd-100-sp17/edit#)
-2. [Roger Fry, “An Essay in Aesthetics” in_Vision and Design_\(orig. publ. 1920; rpt. New York: New American Library, 1974\),16-38.](https://www.gitbook.com/book/dmd-program/dmd-100-sp17/edit#) 
+[^1]: Getty Education. Principles of Design. This document provides an overview of the principles of design, which are essential for understanding and creating visual compositions. [http://www.getty.edu/education/teachers/building_lessons/principles_design.pdf](http://www.getty.edu/education/teachers/building_lessons/principles_design.pdf)
+[^2]: Roger Fry, “An Essay in Aesthetics” in_Vision and Design_(orig. publ. 1920; rpt. New York: New American Library, 1974),16-38.
+[^3]: Burke, James and Robert Ornstein. *The Axe Maker's Gift*. [1997, 122-123].
 
 
 

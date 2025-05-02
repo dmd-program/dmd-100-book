@@ -1,5 +1,11 @@
-Written by Gabrielle Kennedy and published in _Open Design Now!_
+---
+# Override the default author
+author: Gabrielle Kennedy
 
+# Optionally override the license type (defaults to cc-by)
+license: cc-by-nc-3.0
+showPageLicense: true    # Hide just the page-specific license on this page
+workUrl: https://opendesignnow.org/index.html%3Fp=417.html
 ---
 
 # JORIS LAARMAN’S EXPERIMENTS WITH OPEN SOURCE DESIGN / GABRIELLE KENNEDY
@@ -14,7 +20,7 @@ There’s always something special about the top crop of Dutch design graduates,
 
 Since then, he has earned a reputation for himself as a designer with visionary ideas and a concern for societal issues. His first project out of school, the _Bone Furniture_ range, was exhibited in the Friedman Benda gallery in New York, a limited edition series made from marble, porcelain and resin. While he calls it an “annoying coincidence” that much of his work has spawned major contemporary trends, it also testifies to its relevance to the issues that matter.
 
-### Furniture That Can Be Grown
+## Furniture That Can Be Grown
 
 Both those early projects clearly expressed Laarman’s highly specific views on modernism. The\_Bone\_range [DESIGNERS](http://opendesignnow.org/index.php/tag/designers.1.html) resulted from a cooperative partnership with car manufacturer Opel, using software to design a series of artworks based on the organic way that bones form. Car parts are designed with the help of topology optimization software to increase strength and maximize the efficient use of materials. Furniture, as it turns out, can also be ‘grown’ by adding and removing material to maximize its strength and functionality.
 
@@ -32,7 +38,7 @@ Laarman hit a wall when he was researching open source design and digital fabric
 
 Despite its failures and the role it played in creating over-production, Laarman’s research kept bringing him back to modernism – not as an aesthetic per se, but as a philosophy. In 2010 Laarman was selected by Ingeborg de Roode, curator of industrial design at the Stedelijk Museum in Amsterdam, to participate in the Modernism Today series. “I guess she sees me as a sort of contemporary version of Rietveld,” [DESIGNERS](http://opendesignnow.org/index.php/tag/designers.1.html) says Laarman. “That is an interesting comparison, and I see some connection.” 100 years ago, Gerrit Rietveld experimented with technology and materials; Laarman does the same today. His aesthetic is not in the tradition of De Stijl, but his values most certainly are.
 
-### The Modernist Roots \(of Open Design\)
+## The Modernist Roots \(of Open Design\)
 
 In line with those values, it made good sense to fuse Rietveld’s world of ideas and experiments with open source design and digital fabrication; both could be argued to have modernist roots. Open source has been revolutionizing the cultural content universes of music and software for almost a decade, so why shouldn’t it also be able to change the way design is both made and distributed?
 
@@ -51,7 +57,7 @@ What open source design does is redistribute knowledge [KNOWLEDGE](http://opende
 
 ![Composition of Sales Price](https://raw.githubusercontent.com/dmd-program/dmd-100-sp17/master/assets/composition_of_sales_price.jpg)
 
-### Less Production Is Needed, Not More.
+## Less Production Is Needed, Not More.
 
 Statistics show that up until the Industrial Revolution, a similar amount of products were being produced every year. With industrialization came increased wealth and prosperity, which lead to massive increases in production. The result was more waste, more environmental damage [TREND: SCARCITY OF RESOURCES](http://opendesignnow.org/index.php/tag/scarcity_of_recources/index.html) and a surge in unemployed artisans. The average Western person today has access to more things than Queen Victoria owned during her reign. “The tragedy is that the vast majority of what is being today made lacks creativity and quality and isn’t really needed,” Laarman says. “The over-production of mediocrity for the middle classes has created a difficult economic situation, and there is nothing that can be done about it within the current system.”
 
@@ -73,7 +79,7 @@ Creative Commons [CREATIVE COMMONS](http://opendesignnow.org/index.php/tag/creat
 
 > DIGITAL MANU­FACTURING SHOULD BE TAUGHT IN SCHOOLS, ESPECIALLY AT THE VOCATIONAL SCHOOL LEVEL.
 
-### Make-Me .com
+## Make-Me .com
 
 One exciting project already under way, albeit in its nascent stages, is [Make-Me.com](http://make-me.com/), a cooperative venture involving Laarman, the Waag Society, Droog Design and some early internet pioneers. For designers, it means uploading their design for general distribution. For consumers, it means being able to access and customize design. For local producers, it means using licensing agreements to make the things that people want. “It reduces our carbon footprints and allows for more customization,” says Laarman.
 
@@ -92,7 +98,7 @@ None of these obstacles are insurmountable. What Laarman wants is to be a part o
 
 He knows he doesn’t have all the answers, but Laarman is working through all these problems one by one. “I don’t want to say that this idea could take over the entire production world,” he says, “but it can certainly help craftspeople to make things that are not standardized or mass produced. If a world-wide network of craftspeople grows, then this could potentially really change things.”
 
-### Closed Societies Fail
+## Closed Societies Fail
 
 Whichever way you look at this, design cannot continue as is. Design reveals a lot about society, and closed societies fail; like organisms that shut themselves off from their environment, a society that shuns reality will eventually die. Likewise, closed design is outdated. Open source, whether it can be what designers want or even understand at this point, is one way for design to play a real role in building a new, more honest economy. A world with less mass production, less waste, less transportation and less standardized design [STANDARDS](http://opendesignnow.org/index.php/tag/standards/index.html) can only be interpreted as a win-win situation for all concerned.
 

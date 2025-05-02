@@ -1,5 +1,11 @@
-Written by Andrew Katz and published in _Open Design Now!_
+---
+# Override the default author
+author: Andrew Katz
 
+# Optionally override the license type (defaults to cc-by)
+license: cc-by-nc-3.0
+showPageLicense: true    # Hide just the page-specific license on this page
+workUrl: https://opendesignnow.org/index.html%3Fp=407.html
 ---
 
 # AUTHORS AND OWNERS / ANDREW KATZ
@@ -32,7 +38,7 @@ The broadcast-model gatekeepers have used this unintended side effect of copyrig
 
 Thomas Jefferson was one of the most lucid writers on the topic. He understood well the unique nature of knowledge:
 
-“If nature has made any one thing less susceptible than all others of exclusive property, it is the action of the thinking power called an idea, which an individual may exclusively possess as long as he keeps it to himself; but the moment it is divulged, it forces itself into the possession of every one, and the receiver cannot dispossess himself of it. Its peculiar character, too, is that no one possesses the less, because every other possesses the whole of it. He who receives an idea from me, receives instruction himself without lessening mine; as he who lights his taper at mine, receives light without darkening me. That ideas should freely spread from one to another over the globe, for the moral and mutual instruction of man, and improvement of his condition, seems to have been peculiarly and benevolently designed by nature, when she made them, like fire, expansible over all space, without lessening their density in any point, and like the air in which we breathe, move, and have our physical being, incapable of confinement or exclusive appropriation. Inventions then cannot, in nature, be a subject of property.”\[[1](http://opendesignnow.org/index.html%3Fp=407.html#fn-407-1)\]
+“If nature has made any one thing less susceptible than all others of exclusive property, it is the action of the thinking power called an idea, which an individual may exclusively possess as long as he keeps it to himself; but the moment it is divulged, it forces itself into the possession of every one, and the receiver cannot dispossess himself of it. Its peculiar character, too, is that no one possesses the less, because every other possesses the whole of it. He who receives an idea from me, receives instruction himself without lessening mine; as he who lights his taper at mine, receives light without darkening me. That ideas should freely spread from one to another over the globe, for the moral and mutual instruction of man, and improvement of his condition, seems to have been peculiarly and benevolently designed by nature, when she made them, like fire, expansible over all space, without lessening their density in any point, and like the air in which we breathe, move, and have our physical being, incapable of confinement or exclusive appropriation. Inventions then cannot, in nature, be a subject of property.”[^1]
 
 ### A Monopoly is a Bad Thing
 
@@ -166,10 +172,8 @@ Those designers operating purely in the realm of copyright will find that there 
 
 ![](http://opendesignnow.org/wp-content/uploads/2011/05/STRUCTURE-OF-intellectual-property.png)
 
-1. Jefferson, T. Letter to Isaac McPherson, 13 August 1813. The Writings of Thomas Jefferson. Edited by Andrew A. Lipscomb and Albert Ellery Bergh. Washington: Thomas Jefferson Memorial Association, 1905. Vol. 13, p. 333-334. Available at 
-   [http://press-pubs.uchicago.edu/founders/documents/a1\_8\_8s12.html](http://press-pubs.uchicago.edu/founders/documents/a1_8_8s12.html), accessed 11 January 2011. [↩](http://opendesignnow.org/index.html%3Fp=407.html#fnref-407-1)
-
-This article published with a Creative Commons 3.0 License. _Open Design Now!_. URL: [http://opendesignnow.org/index.html%3Fp=407.html](http://opendesignnow.org/index.html%3Fp=407.html). Accessed Jan 13th, 2017
+[^1]: Jefferson, T. Letter to Isaac McPherson, 13 August 1813. The Writings of Thomas Jefferson. Edited by Andrew A. Lipscomb and Albert Ellery Bergh. Washington: Thomas Jefferson Memorial Association, 1905. Vol. 13, p. 333-334. Available at 
+   [http://press-pubs.uchicago.edu/founders/documents/a1\_8\_8s12.html](http://press-pubs.uchicago.edu/founders/documents/a1_8_8s12.html), accessed 11 January 2011.
 
 
 

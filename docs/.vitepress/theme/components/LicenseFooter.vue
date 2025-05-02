@@ -8,7 +8,13 @@
         <p v-if="showPageLicense" class="license-text" 
            v-bind:attr="{ prefix: 'cc: http://creativecommons.org/ns# dc: http://purl.org/dc/terms/ schema: https://schema.org/' }"
            typeof="schema:CreativeWork cc:Work">
-          This work, <a :href="currentPageUrl" property="schema:url dc:source">"{{ pageTitle }}"</a>, 
+          This work, 
+          <template v-if="shouldShowWorkLink">
+            <a :href="workLinkUrl" property="schema:url dc:source">"{{ pageTitle }}"</a>
+          </template>
+          <template v-else>
+            <span property="schema:name">"{{ pageTitle }}"</span>
+          </template>, 
           by <span property="schema:author dc:creator">{{ pageAuthor }}</span> is licensed under 
           <a :href="licenseUrl" rel="license" property="cc:license schema:license">{{ licenseName }}</a>.
         </p>
@@ -19,7 +25,7 @@
            typeof="schema:CreativeWork cc:Work">
           The entire work, <a :href="workUrl" property="schema:url dc:source">"{{ workTitle }}"</a>, 
           by <span property="schema:author dc:creator">{{ workAuthor }}</span> is licensed under 
-          <a :href="licenseUrl" rel="license" property="cc:license schema:license">{{ licenseName }}</a>.
+          <a :href="siteLicenseUrl" rel="license" property="cc:license schema:license">{{ siteLicenseName }}</a>.
         </p>
         
         <!-- License icon with RDFa -->
@@ -65,6 +71,26 @@ const currentPageUrl = computed(() => {
   return `${siteUrl}${basePath}${pagePath}`
 })
 
+// Check if we should show a link to the work
+const shouldShowWorkLink = computed(() => {
+  // If disableWorkLink is explicitly set to true, don't show link
+  if (frontmatter.value.disableWorkLink === true) {
+    return false;
+  }
+  return true;
+})
+
+// Get the URL to use for the work link 
+// (either custom workUrl from frontmatter or default currentPageUrl)
+const workLinkUrl = computed(() => {
+  // If custom workUrl is provided in frontmatter, use it
+  if (frontmatter.value.workUrl) {
+    return frontmatter.value.workUrl;
+  }
+  // Otherwise use the current page URL
+  return currentPageUrl.value;
+})
+
 // Enhanced author logic - now using theme.value to access themeConfig
 const pageAuthor = computed(() => {
   // First check if author is specified in frontmatter
@@ -93,6 +119,59 @@ const workAuthor = computed(() => theme.value.defaultAuthor)
 // License type can be overridden in frontmatter, defaults to theme config
 const license = computed(() => frontmatter.value.license || theme.value.license || 'cc-by')
 
+// Get site-wide license from theme config, not frontmatter
+const siteLicense = computed(() => theme.value.license || 'cc-by')
+
+// Parse license version from the license string
+const licenseVersion = computed(() => {
+  const licenseStr = license.value;
+  // Check if license includes version number (e.g., cc-by-3.0 or cc-by-nc-3.0)
+  const versionMatch = licenseStr.match(/(\d+\.\d+)$/);
+  
+  if (versionMatch) {
+    // Return the specified version if found
+    return versionMatch[1];
+  }
+  
+  // Default to 4.0 if no version is specified
+  return '4.0';
+})
+
+// Parse site license version
+const siteLicenseVersion = computed(() => {
+  const licenseStr = siteLicense.value;
+  // Check if license includes version number
+  const versionMatch = licenseStr.match(/(\d+\.\d+)$/);
+  
+  if (versionMatch) {
+    // Return the specified version if found
+    return versionMatch[1];
+  }
+  
+  // Default to 4.0 if no version is specified
+  return '4.0';
+})
+
+// Get license type without version
+const licenseType = computed(() => {
+  const licenseStr = license.value;
+  // If license has version suffix, remove it
+  if (licenseStr.match(/\d+\.\d+$/)) {
+    return licenseStr.replace(/[-]?\d+\.\d+$/, '');
+  }
+  return licenseStr;
+})
+
+// Get site license type without version
+const siteLicenseType = computed(() => {
+  const licenseStr = siteLicense.value;
+  // If license has version suffix, remove it
+  if (licenseStr.match(/\d+\.\d+$/)) {
+    return licenseStr.replace(/[-]?\d+\.\d+$/, '');
+  }
+  return licenseStr;
+})
+
 // Visibility controls
 const showPageLicense = computed(() => {
   // Check if page-specific control exists in frontmatter
@@ -115,43 +194,104 @@ const showSitewideLicense = computed(() => {
 // Should show any license at all
 const shouldShowLicense = computed(() => showPageLicense.value || showSitewideLicense.value)
 
-// Set license URL and name based on license type
+// Set license URL based on license type and version
 const licenseUrl = computed(() => {
-  switch(license.value) {
-    case 'cc-by-sa': return 'https://creativecommons.org/licenses/by-sa/4.0/'
-    case 'cc-by-nc': return 'https://creativecommons.org/licenses/by-nc/4.0/'
-    case 'cc-by-nc-sa': return 'https://creativecommons.org/licenses/by-nc-sa/4.0/'
-    case 'cc-by-nd': return 'https://creativecommons.org/licenses/by-nd/4.0/'
-    case 'cc-by-nc-nd': return 'https://creativecommons.org/licenses/by-nc-nd/4.0/'
-    case 'custom': return frontmatter.value.customLicenseUrl || '#'
-    default: return 'https://creativecommons.org/licenses/by/4.0/'
+  // Handle custom license case
+  if (licenseType.value === 'custom') {
+    return frontmatter.value.customLicenseUrl || '#';
   }
+  
+  // For standard CC licenses, use the type and version
+  let type = '';
+  
+  switch(licenseType.value) {
+    case 'cc-by-sa': type = 'by-sa'; break;
+    case 'cc-by-nc': type = 'by-nc'; break;
+    case 'cc-by-nc-sa': type = 'by-nc-sa'; break;
+    case 'cc-by-nd': type = 'by-nd'; break;
+    case 'cc-by-nc-nd': type = 'by-nc-nd'; break;
+    default: type = 'by'; // Default to CC BY
+  }
+  
+  return `https://creativecommons.org/licenses/${type}/${licenseVersion.value}/`;
 })
 
-// License name based on license type
+// Set site-wide license URL based on site license type and version
+const siteLicenseUrl = computed(() => {
+  // For standard CC licenses, use the type and version
+  let type = '';
+  
+  switch(siteLicenseType.value) {
+    case 'cc-by-sa': type = 'by-sa'; break;
+    case 'cc-by-nc': type = 'by-nc'; break;
+    case 'cc-by-nc-sa': type = 'by-nc-sa'; break;
+    case 'cc-by-nd': type = 'by-nd'; break;
+    case 'cc-by-nc-nd': type = 'by-nc-nd'; break;
+    default: type = 'by'; // Default to CC BY
+  }
+  
+  return `https://creativecommons.org/licenses/${type}/${siteLicenseVersion.value}/`;
+})
+
+// Generate license name based on license type and version
 const licenseName = computed(() => {
-  switch(license.value) {
-    case 'cc-by-sa': return 'CC-BY-SA-4.0'
-    case 'cc-by-nc': return 'CC-BY-NC-4.0'
-    case 'cc-by-nc-sa': return 'CC-BY-NC-SA-4.0'
-    case 'cc-by-nd': return 'CC-BY-ND-4.0'
-    case 'cc-by-nc-nd': return 'CC-BY-NC-ND-4.0'
-    case 'custom': return frontmatter.value.customLicenseName || 'Custom License'
-    default: return 'CC-BY-4.0'
+  // Handle custom license case
+  if (licenseType.value === 'custom') {
+    return frontmatter.value.customLicenseName || 'Custom License';
   }
+  
+  // For standard CC licenses, use the type and version
+  let name = '';
+  
+  switch(licenseType.value) {
+    case 'cc-by-sa': name = 'CC-BY-SA'; break;
+    case 'cc-by-nc': name = 'CC-BY-NC'; break;
+    case 'cc-by-nc-sa': name = 'CC-BY-NC-SA'; break;
+    case 'cc-by-nd': name = 'CC-BY-ND'; break;
+    case 'cc-by-nc-nd': name = 'CC-BY-NC-ND'; break;
+    default: name = 'CC-BY'; // Default to CC BY
+  }
+  
+  return `${name}-${licenseVersion.value}`;
 })
 
-// License image based on license type
-const licenseImage = computed(() => {
-  switch(license.value) {
-    case 'cc-by-sa': return 'https://i.creativecommons.org/l/by-sa/4.0/88x31.png'
-    case 'cc-by-nc': return 'https://i.creativecommons.org/l/by-nc/4.0/88x31.png'
-    case 'cc-by-nc-sa': return 'https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png'
-    case 'cc-by-nd': return 'https://i.creativecommons.org/l/by-nd/4.0/88x31.png'
-    case 'cc-by-nc-nd': return 'https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png'
-    case 'custom': return frontmatter.value.customLicenseImage || ''
-    default: return 'https://i.creativecommons.org/l/by/4.0/88x31.png'
+// Generate site-wide license name based on site license type and version
+const siteLicenseName = computed(() => {
+  // For standard CC licenses, use the type and version
+  let name = '';
+  
+  switch(siteLicenseType.value) {
+    case 'cc-by-sa': name = 'CC-BY-SA'; break;
+    case 'cc-by-nc': name = 'CC-BY-NC'; break;
+    case 'cc-by-nc-sa': name = 'CC-BY-NC-SA'; break;
+    case 'cc-by-nd': name = 'CC-BY-ND'; break;
+    case 'cc-by-nc-nd': name = 'CC-BY-NC-ND'; break;
+    default: name = 'CC-BY'; // Default to CC BY
   }
+  
+  return `${name}-${siteLicenseVersion.value}`;
+})
+
+// License image based on license type and version
+const licenseImage = computed(() => {
+  // Handle custom license case
+  if (licenseType.value === 'custom') {
+    return frontmatter.value.customLicenseImage || '';
+  }
+  
+  // For standard CC licenses, use the type and version
+  let type = '';
+  
+  switch(licenseType.value) {
+    case 'cc-by-sa': type = 'by-sa'; break;
+    case 'cc-by-nc': type = 'by-nc'; break;
+    case 'cc-by-nc-sa': type = 'by-nc-sa'; break;
+    case 'cc-by-nd': type = 'by-nd'; break;
+    case 'cc-by-nc-nd': type = 'by-nc-nd'; break;
+    default: type = 'by'; // Default to CC BY
+  }
+  
+  return `https://i.creativecommons.org/l/${type}/${licenseVersion.value}/88x31.png`;
 })
 
 // For custom license content if needed

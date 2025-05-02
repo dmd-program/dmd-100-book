@@ -4,7 +4,7 @@ The majority of the ideas presented here are drawn from an openly licensed book 
 
 Notable projects that still exist include [Open Structures](http://openstructures.net), [Wiki House](http://wikihouse.cc), [Local Motors](https://localmotors.com/) and [Open Source Ecology](http://opensourceecology.org), all of which hope to use the power of open source technology with crowdsource design communities to enable the average person to create houses, products, vehicles, and sustainable living environments.
 
-Open design is made _available_, _sharable_, and _licensed_ under open **access** terms. For access to be open, it cannot be _concealed_, _protected_, or _licensed_ under a fee or payment structure. For instance, Apple, Inc. is highly secretive about their projects until they are released to the public. The Linux operating system project is a good example of a transparent-box design, where development and functionality is exposed. Open design helps others contribute by using _common digital notation language_ to specify **blueprints** and plans. The use of _proprietary_ notation language for specification does not contribute to openness. An example of an open specification language can be found at [Schema.org](http://schema.org), where a community of developers promote structured data for the Internet. Open design is _reconfigurable_ and _extendable_ enabling **derivatives**, whereas design that is not open is _black-boxed_ or _fixed_, preventing derivatives from being possible. Open design is _reproducible_ and **not exclusive** or _limited to a finite series_. In contrast, _one-offs_ are not compatible with the open design philosophies. Open design can be fabricated by commercial, off-the-shelf, multi-purpose machines expanding a **means of production** to more people. If the design must be fabricated by a skilled artisan or if it requires custom built machines or moulds, then it is not open. The **manufacturing process** of open design is subject to distributed and scalable production. A _centrally controlled_ and _preset batch production_ process is not open design. Open design has _generative_ qualities whereas closed design does not have this potential, and is _close-ended_. \[1\]
+Open design is made _available_, _sharable_, and _licensed_ under open **access** terms. For access to be open, it cannot be _concealed_, _protected_, or _licensed_ under a fee or payment structure. For instance, Apple, Inc. is highly secretive about their projects until they are released to the public. The Linux operating system project is a good example of a transparent-box design, where development and functionality is exposed. Open design helps others contribute by using _common digital notation language_ to specify **blueprints** and plans. The use of _proprietary_ notation language for specification does not contribute to openness. An example of an open specification language can be found at [Schema.org](http://schema.org), where a community of developers promote structured data for the Internet. Open design is _reconfigurable_ and _extendable_ enabling **derivatives**, whereas design that is not open is _black-boxed_ or _fixed_, preventing derivatives from being possible. Open design is _reproducible_ and **not exclusive** or _limited to a finite series_. In contrast, _one-offs_ are not compatible with the open design philosophies. Open design can be fabricated by commercial, off-the-shelf, multi-purpose machines expanding a **means of production** to more people. If the design must be fabricated by a skilled artisan or if it requires custom built machines or moulds, then it is not open. The **manufacturing process** of open design is subject to distributed and scalable production. A _centrally controlled_ and _preset batch production_ process is not open design. Open design has _generative_ qualities whereas closed design does not have this potential, and is _close-ended_. [^1]
 
 ## DIY
 
@@ -28,12 +28,10 @@ Make magazine launched in 2005 by Dale Dougherty, and challenged users to move f
 | Professionalization, specialization | Do-it-ourselves, maker culture |
 | Long-term affiliation and loyalty, less overall participation | Short-term, conditional affiliation, more overall participation |
 
-\[2\]
+[^2]
 
-## Citations
-
-1. Adapted from Open Design Now!. Page 55.
-2. source: [https://hbr.org/2014/12/understanding-new-power](https://hbr.org/2014/12/understanding-new-power)
+[^1]: Adapted from Open Design Now!. Page 55.
+[^2]: source: [https://hbr.org/2014/12/understanding-new-power](https://hbr.org/2014/12/understanding-new-power)
 
 
 

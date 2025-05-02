@@ -14,7 +14,7 @@ A person can now read, watch, interact with, or listen to a new story every day 
 
 Semiotics, the study of signs and symbols, has produced models for describing how meaning is communicated; Ferdinand de Saussure's dyadic model consists of the signifier and the signified, and the Charles Sanders Peirce triadic model consists of icons, indices, and symbols. Just like [Forrest Gump's shoes](https://www.youtube.com/watch?v=egkrxkiUnoo), objects are "sign vehicles," targets of mental acts but these objects do [not have to be physical things](https://vimeo.com/133160620). From the perspective of storytelling, objects are the medium by which a story is told. The authors of the book, _The Axemaker's Gift_, remind us that humans figured out how to do this with writing approximately 12,000 years ago.
 
-> "The first examples of writing occurred in the Near East at the time when animals and plants were being domesticated. They took the form of clay tokens, smaller than an inch in size, used to represent different commodities." \[1\]
+> "The first examples of writing occurred in the Near East at the time when animals and plants were being domesticated. They took the form of clay tokens, smaller than an inch in size, used to represent different commodities." [^1]
 
 The significance of this event is that people could now ascribe meaning \(in this case to count grain and livestock for trade\) using abstract markings on clay tokens. The token was a standardized signifier, which made commerce possible in prehistoric times. Eventually, the desire to describe other types of information led to the development of a written language and number systems. Out of that arose complex social structures, division of labor, law, cities, property ownership, and other aspects of modern civilization.
 
@@ -28,9 +28,8 @@ Journalists working for televised news stations, newspapers, magazines, blogs, a
 
 Politicians use stories to gain public support for proposed policies and actions whereas activists use coordinated gatherings with signage, music, song, dance, and other types of performance to communicate their stories to the general public. Social change agents use stories to create empathy through all forms of media, helping bring attention to marginalized members of society.
 
-## Citations
 
-1. Burke, James, and Robert Evan Ornstein. The Axemaker's Gift: Technology's Capture and Control of Our Minds and Culture. 1st trade pbk. ed. New York: Putnam, 1997.
+[^1]: Burke, James, and Robert Evan Ornstein. The Axemaker's Gift: Technology's Capture and Control of Our Minds and Culture. 1st trade pbk. ed. New York: Putnam, 1997.
 
 
 
