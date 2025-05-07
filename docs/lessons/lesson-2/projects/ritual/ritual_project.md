@@ -49,7 +49,7 @@ Your project must contain elements of novelty and does NOT need to solve a liter
 ## Materials and tools
 
 * Camera or scanner \(a smartphone camera is fine\)
-* InVisionApp account: Visit [https://www.invisionapp.com/education-signup](http://www.invisionapp.com/education-signup) to get a free education account. Use this activation code: **56-73-13-19**
+* [Figma.com](https://www.figma.com/education/) education account
 * Graph paper
 * Pens, pencils, markers
 * Scissors
