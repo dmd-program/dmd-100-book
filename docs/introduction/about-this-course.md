@@ -29,11 +29,11 @@ Delivering pedagogy online has its own set of challenges. We'll be using  a mix 
 ### Materials
 
 1. Journal 
-   * Any journal is fine. I recommend the Moleskine Cahier Journal, Large, Squared, Kraft Brown, Soft Cover \(5 x 8.25\) [Amazon purchase link](https://www.amazon.com/Moleskine-Cahier-Journal-Large-Squared/dp/8883704991)
+   * Any journal is fine. I recommend the [Moleskine Cahier Journal](https://www.moleskine.com/en-us/shop/notebooks/journals/cahier-journals/cahier-journals-black-9788883704963.html), Large, Squared, Soft Cover \(5 x 8.25\)
 2. Pens, pencils, markers
    * Any that you already own are fine, you do not need to purchase special ones for this course. However, the following recommendations are professional grade if you are so inclined to invest in quality drawing tools.
       * Pencil: Palomino Blackwing 602
-      * Pen: Copic Multiliner Marker 0.5 - Black
+      * Pen: Pentel Pointliner 0.5 - Black
       * Marker: Copic N2 
 3. Scissors
 4. Post-it Notes
@@ -41,7 +41,7 @@ Delivering pedagogy online has its own set of challenges. We'll be using  a mix 
 
 ### Book
 
-We will be reading _Design and Truth_ by Robert Grudin. You will need to purchase a copy of this book. Students get [free Amazon Prime](https://www.amazon.com/gp/help/customer/display.html?nodeId=201133690) shipping.
+We will be reading _Design and Truth_ by Robert Grudin. You will need to [purchase a copy of Design and Truth](https://yalebooks.yale.edu/book/9780300171310/design-and-truth/).
 
 ### Course author
 
