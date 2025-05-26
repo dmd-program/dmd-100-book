@@ -33,6 +33,9 @@ This will:
 - Hide the navigation bar
 - Hide the sidebar
 - Hide the footer
+- Hide next/previous page navigation
+- Hide the license footer
+- Hide edit links and additional VitePress navigation elements
 - Remove all padding and margins from the content area
 
 This feature is useful when you want to embed specific content from the site into another webpage or learning management system without showing the navigation elements.
