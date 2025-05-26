@@ -14,41 +14,43 @@ Field research is a central part of the human-centered design process. You will 
 
 ### Step 1: Interview Setup
 
-The purpose of this interview is to better understand the day-to-day challenges that a person faces. Set up an interview. It can be a family member, a friend, a colleague at work, a student, etc. Ensure that you have at least an hour of time. The interview can be in-person, over the phone, or via video conversation. Please do not send a list of questions to your interviewee, as you will need to tailor the interview questions during the conversation. If you intend to record the interview \(not required\) you must obtain the permission of the interviewee.
+The purpose of this interview is to identify some ways people find, create, or instill happiness and delight. Set up an interview. It can be a family member, a friend, a colleague at work, a student, etc. However, it would be a more compelling inverview and project if you selected an interviewee with a different background or lifestyle from your own to broaden your perspective. 
 
-### Step 2: Find challenges
+Ensure that you have at least an hour of time. The interview can be in-person, over the phone, or via video conversation. Please do not send a list of questions to your interviewee, as you will need to tailor the interview questions during the conversation. If you intend to record the interview \(not required\) you must obtain the permission of the interviewee.
 
-Start the interview by asking your participant about their daily routine. Try to find something they do or experience every day that they find distracting, challenging, frustrating, or something they wish they didn't have to do.
+### Step 2: Conduct the Interview
 
-_**Interview Tip: **Try to have a natural conversation. Laugh, joke, and don't rely solely on the example questions below. Give your subject plenty of time to respond, awkward pauses may result in valuable responses if you're patient. _
+Start the interview by asking your participant about their daily routine. Try to find something they do or experience every day that they find calming, stimulating, fun, or puts them in the "flow state."
+
+**Interview Tip:** Try to have a natural conversation. Laugh, joke, and don't rely solely on the example questions below. Give your subject plenty of time to respond, awkward pauses may result in valuable responses if you're patient.
 
 #### Example questions
 
-**Daily challenges:**
+**Delights:**
 
 1. Tell me about your day today or a typical day in your life.
-2. Do you find anything particularly challenging about your daily routine?
-   1. Do you have any reoccurring frustrations?  
-3. If you could change something about your typical day, what would it be?
-4. Is there something that, if only you were incredibly good at it, you could improve some aspect of your life?
-   1. Why aren't you good at it? \("it" should be a specific thing, see **Laddering - Five 'Why?'s**\)
+   1. In one or two words, what does it generally feel like?
+   2. Why is that?
+3. What is something you currently experience every day, however small or insignificant, that brings a bit of delight or happiness?
+   1. Can you think of why it has this affect?
+4. What is an activity, object, or experience you find to be special, important, genuine, or meaningful?
+5. Is there something that you wish you were better at doing?
+   1. What is it about skill that's so appealing? \(this should be a specific thing, see **Laddering - Five 'Why?'s**\)
 
-**Life-long challenges:**
+**Challenges:**
 
-1. What is a long-term challenge or frustration in your career or life?
+1. What challenges, frustrations, or frictions do you endure every day, week, or year?
    1. Why is it challenging? \("it" should be a specific thing, see **Laddering - Five 'Why?'s\)**
 2. If you could go back to childhood and begin your life again, what would you want to do as an adult?
    1. Why did you choose this answer?
-3. Is there anything preventing you from doing this now? If so, what are some of those things?
-   1. Why do you think that is? \("it" should be a specific thing, see **Laddering - Five 'Why?'s**\)
+3. What is some advice you would tell your younger self?
+   1. Why this advice? \("it" should be a specific thing, see **Laddering - Five 'Why?'s**\)
 
 **Core Values**
 
-1. What do you value more, **adventure** or **stability**?
-   1. Why do you think that is? \("it" should be a specific thing, see **Laddering - Five 'Why?'s**\)
-2. What is a place that has special meaning to you? \(At home, or elsewhere\)
+1. What is a place or type of space that has special meaning to you? \(At home, or elsewhere\)
    1. What details can you recall most clearly? Describe them.
-3. What is a group, culture, or "tribe" that you strongly identify with?
+2. What is a group, culture, or "tribe" that you strongly identify with?
    1. How do your participate in, or show your connection to, that group?
 
 **Original Questions**
@@ -81,7 +83,7 @@ Use the file format indicated in each step. You must obtain prior approval to de
 
 1. Submit an image of your journal notes in `.jpg` or `.png` format.
 
-## Citation:
+## References:
 
 Adapted from: [http://www.designkit.org/methods/66](http://www.designkit.org/methods/66)
 
