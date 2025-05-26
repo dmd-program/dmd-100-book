@@ -4,6 +4,11 @@
  */
 
 (function() {
+  // Only run in browser environment (not during SSR)
+  if (typeof document === 'undefined' || typeof window === 'undefined') {
+    return;
+  }
+
   function checkEmbed() {
     const params = new URLSearchParams(window.location.search);
     const embedParam = params.get('embed');

@@ -1,6 +1,8 @@
 // .vitepress/theme/index.js
 import DefaultTheme from 'vitepress/theme'
 import './custom.css'
+import './embed.css'
+import './embed.js'
 import { h } from 'vue'
 import LicenseFooter from './components/LicenseFooter.vue'
 import VideoEmbed from './components/VideoEmbed.vue'

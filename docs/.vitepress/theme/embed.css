@@ -37,13 +37,15 @@ body[data-embed="true"] .vpi-align-left {
 body[data-embed="true"] .mobile-only,
 body[data-embed="true"] [class*="mobile-nav"],
 body[data-embed="true"] [class*="mobile-menu"] {
-  /* display: none !important; */
+  visibility: hidden !important;
 }
 
 @media (min-width: 960px) {
     body[data-embed="true"] .VPLocalNav {
         top: inherit !important;
     }
+}
+
 @media (min-width: 960px) {
     body[data-embed="true"] .VPLocalNav.has-sidebar {
         padding-left: 0 !important;
@@ -70,6 +72,30 @@ body[data-embed="true"] .VPFooter {
 /* Hide any edit links or doc footer in embed mode */
 body[data-embed="true"] .edit-link,
 body[data-embed="true"] .DocFooter {
+  display: none !important;
+}
+
+/* Hide VitePress pagination/next-previous navigation */
+body[data-embed="true"] .VPDocFooter,
+body[data-embed="true"] .prev-next,
+body[data-embed="true"] .pager-link,
+body[data-embed="true"] .pagination,
+body[data-embed="true"] [class*="pager"],
+body[data-embed="true"] [class*="prev-next"],
+body[data-embed="true"] .next,
+body[data-embed="true"] .prev {
+  display: none !important;
+}
+
+/* Hide the LicenseFooter component in embed mode */
+body[data-embed="true"] .license-footer {
+  display: none !important;
+}
+
+/* Hide any additional VitePress navigation elements */
+body[data-embed="true"] .VPLocalNav,
+body[data-embed="true"] .VPDocOutline,
+body[data-embed="true"] .VPOutline {
   display: none !important;
 }
 

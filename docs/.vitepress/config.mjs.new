@@ -1,0 +1,268 @@
+import { defineConfig } from 'vitepress'
+// Import the footnote plugin
+import footnote from 'markdown-it-footnote'
+import { withPdfExport } from 'vitepress-export-pdf'
+
+// Extremely simple script that runs immediately
+const scriptContent = `
+  // Function runs as soon as the script is parsed
+  (function() {
+    // Get the embed parameter directly
+    const params = new URLSearchParams(window.location.search);
+    const embedParam = params.get('embed');
+    
+    // If embed=true, add the class immediately
+    if (embedParam === 'true') {
+      document.documentElement.classList.add('is-embedded');
+    }
+    
+    // Handle navigation changes through mutation observer
+    const observer = new MutationObserver(function(mutations) {
+      const params = new URLSearchParams(window.location.search);
+      const embedParam = params.get('embed');
+      
+      if (embedParam === 'true') {
+        document.documentElement.classList.add('is-embedded');
+      } else {
+        document.documentElement.classList.remove('is-embedded');
+      }
+    });
+    
+    // Start observing once DOM is ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function() {
+        observer.observe(document.body, { childList: true, subtree: true });
+      });
+    } else {
+      observer.observe(document.body, { childList: true, subtree: true });
+    }
+  })();
+`;
+
+// https://vitepress.dev/reference/site-config
+export default withPdfExport(defineConfig({
+  title: "DMD 100",
+  description: "Digital Multimedia Design Foundations",
+  
+  // Add base configuration for GitHub Pages
+  base: '/dmd-100-book/', // Replace with your actual repository name
+  
+  // Configure PDF export
+  exportPdf: {
+    theme: 'light',
+    styles: [],
+    /** More options at https://pptr.dev/api/puppeteer.pdfoptions */
+    pdfOptions: {
+      format: 'A4',
+      margin: {
+        top: '20mm',
+        right: '20mm',
+        bottom: '20mm',
+        left: '20mm'
+      }
+    }
+  },
+  
+  // Configure the markdown parser to use the footnote plugin
+  markdown: {
+    config: (md) => {
+      md.use(footnote)
+    }
+  },
+  
+  // Use transformHead to inject script and styles
+  transformHead(context) {
+    // Add the script tag to the head
+    context.head.push(['script', {}, scriptContent]);
+    
+    // Add embedded view styles directly
+    context.head.push(['style', {}, `
+      /* Hide navigation elements when embedded */
+      .is-embedded .VPNav {
+        display: none !important;
+      }
+      
+      .is-embedded .VPSidebar {
+        display: none !important;
+      }
+      
+      .is-embedded .VPContent {
+        padding-top: 0 !important;
+        padding-left: 0 !important;
+      }
+      
+      .is-embedded .VPContent.has-sidebar {
+        padding-left: 0 !important;
+      }
+    `]);
+    
+    // Check if frontmatter exists before accessing license property
+    const frontmatterLicense = context.frontmatter?.license;
+    
+    // Get license type from frontmatter or default to cc-by
+    // Add support for both 3.0 and 4.0 versions
+    const licensePath = frontmatterLicense === 'cc-by-sa' ? 'by-sa/4.0' :
+                       frontmatterLicense === 'cc-by-nc' ? 'by-nc/4.0' : 
+                       frontmatterLicense === 'cc-by-nc-sa' ? 'by-nc-sa/4.0' : 
+                       frontmatterLicense === 'cc-by-nd' ? 'by-nd/4.0' : 
+                       frontmatterLicense === 'cc-by-nc-nd' ? 'by-nc-nd/4.0' : 
+                       // Add 3.0 license versions
+                       frontmatterLicense === 'cc-by-3.0' ? 'by/3.0' :
+                       frontmatterLicense === 'cc-by-sa-3.0' ? 'by-sa/3.0' :
+                       frontmatterLicense === 'cc-by-nc-3.0' ? 'by-nc/3.0' : 
+                       frontmatterLicense === 'cc-by-nc-sa-3.0' ? 'by-nc-sa/3.0' : 
+                       frontmatterLicense === 'cc-by-nd-3.0' ? 'by-nd/3.0' : 
+                       frontmatterLicense === 'cc-by-nc-nd-3.0' ? 'by-nc-nd/3.0' : 
+                       'by/4.0'; // Default to CC BY 4.0
+    
+    // Get author from frontmatter or default to site config
+    const pageAuthor = context.frontmatter?.author || 'Michael Collins';
+    
+    // Add Creative Commons license metadata (respects page-specific license)
+    context.head.push(['link', { rel: 'license', href: `http://creativecommons.org/licenses/${licensePath}/` }]);
+    
+    // Page-specific author metadata
+    context.head.push(['meta', { property: 'cc:attributionName', content: pageAuthor }]);
+    context.head.push(['meta', { property: 'dc:creator', content: pageAuthor }]);
+    context.head.push(['meta', { property: 'schema:author', content: pageAuthor }]);
+    
+    // URL metadata
+    const pageUrl = `https://dmd-program.github.io/dmd-100-book/${context.pageData.relativePath.replace(/\\.md$/, '.html')}`;
+    context.head.push(['meta', { property: 'cc:attributionUrl', content: pageUrl }]);
+    context.head.push(['meta', { property: 'schema:url', content: pageUrl }]);
+    
+    // License metadata in multiple formats
+    context.head.push(['meta', { name: 'rights', content: `This work is licensed under a Creative Commons License: https://creativecommons.org/licenses/${licensePath}/` }]);
+    context.head.push(['meta', { property: 'schema:license', content: `https://creativecommons.org/licenses/${licensePath}/` }]);
+  },
+  
+  themeConfig: {
+    // These properties will be accessible via theme in useData()
+    license: 'cc-by',
+    defaultAuthor: 'Michael Collins',
+    workTitle: 'DMD 100: Digital Multimedia Design Foundations',
+    // workUrl: 'https://dmd-program.github.io/dmd-100-book',
+    siteUrl: 'https://dmd-program.github.io',
+    
+    // License visibility controls
+    showPageLicense: false,      // Controls display of page-specific licenses
+    showSitewideLicense: true,  // Controls display of sitewide license
+    
+    // https://vitepress.dev/reference/default-theme-config
+    nav: [
+      { text: 'Home', link: '/' },
+      // Add other top-level navigation if needed
+    ],
+
+    // Add search configuration
+    search: {
+      provider: 'local',
+      options: {
+        detailedView: true,
+        miniSearch: {
+          /**
+           * @type {import('minisearch').Options}
+           * @default
+           */
+          options: {
+            // Advanced search options
+            tokenize: (text) => text.split(/\\W+/),
+            processTerm: (term) => term.toLowerCase()
+          },
+          /**
+           * @type {import('minisearch').SearchOptions}
+           * @default
+           */
+          searchOptions: {
+            // Search options
+            boost: { title: 2, content: 1 },
+            fuzzy: 0.2,
+            prefix: true
+          }
+        }
+      }
+    },
+
+    sidebar: [
+      {
+        text: 'Introduction',
+        collapsible: true,
+        items: [
+          { text: 'Home', link: '/' }, // README.md maps to root
+          { text: 'About this course', link: '/introduction/about-this-course' },
+          { text: 'Digital Multimedia Design', link: '/introduction/digital_multimedia_design' },
+          { text: 'Course instructor', link: '/introduction/instructor' },
+          { text: 'Measuring success', link: '/introduction/measuring_success' },
+          { text: 'Learning objectives', link: '/introduction/learning-objectives' },
+          { text: 'Projects', link: '/introduction/projects' },
+          { text: 'Feedback and critique', link: '/introduction/feedback-and-critique' },
+          { text: 'Technology', link: '/introduction/technology' },
+          { text: 'Writing Guidelines', link: '/introduction/writing_guidelines' },
+          { text: 'Requirements', link: '/introduction/requirements' }
+        ]
+      },
+      {
+        text: 'Lesson 1: What is design?',
+        link: '/lessons/introduction-what-is-design',
+        collapsible: true,
+        items: [
+          {
+            text: 'Topics',
+            collapsible: true,
+            collapsed: true,
+            items: [
+              { text: 'What is design?', link: '/lessons/lesson-1/topics/what_is_design' },
+              { text: 'Design thinking', link: '/lessons/lesson-1/topics/design_thinking' },
+              { text: 'Systems thinking', link: '/lessons/lesson-1/topics/systems_thinking' },
+              { text: 'Critical thinking', link: '/lessons/lesson-1/topics/critical_thinking' },
+              { text: 'Design process', link: '/lessons/lesson-1/topics/design-process' }
+            ]
+          },
+          {
+            text: 'Readings',
+            collapsible: true,
+            collapsed: true,
+            items: [
+              { text: 'Chapter 1&2. Sen Rikyu...', link: '/lessons/lesson-1/readings/chapter_1_sen_rikyu_and_the_paradox_of_innovation' }
+            ]
+          },
+          {
+            text: 'Activities',
+            collapsible: true,
+            collapsed: true,
+            items: [
+              { text: 'Daily design journal', link: '/lessons/lesson-1/practice/daily_design_journal' },
+              { text: 'Daily design journal: Report in', link: '/lessons/lesson-1/practice/daily-design-journal-report-in' }
+            ]
+          },
+          {
+            text: 'Listen',
+            collapsible: true,
+            collapsed: true,
+            items: [
+              { text: 'Creative Mornings: Design Is Magical', link: '/lessons/lesson-1/listening/creative_mornings_design_is_magical' },
+              { text: '99 Percent Invisible: Lawn Order', link: '/lessons/lesson-1/listening/lawn_order' }
+            ]
+          },
+          {
+            text: 'Discussions',
+            collapsible: true,
+            collapsed: true,
+            items: [
+              { text: 'End of lesson discussion', link: '/lessons/what-is-design/end_of_lesson_discussion' }
+            ]
+          }
+        ]
+      }
+    ],
+
+    editLink: {
+      pattern: 'https://github.com/dmd-program/dmd-100-book/edit/main/docs/:path',
+      text: 'Edit this page on GitHub'
+    },
+
+    socialLinks: [
+      // Add social links if needed, e.g., { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    ]
+  }
+}))

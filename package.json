@@ -5,9 +5,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs && node scripts/generate-content-api.mjs",
+    "docs:build": "vitepress build docs && node scripts/generate-content-api.mjs && node scripts/generate-pdf.mjs",
     "docs:preview": "vitepress preview docs",
-    "docs:cc": "node scripts/generate-common-cartridge.mjs"
+    "docs:cc": "node scripts/generate-common-cartridge.mjs",
+    "docs:pdf": "node scripts/generate-pdf.mjs"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +19,9 @@
     "glob": "^10.4.5",
     "gray-matter": "^4.0.3",
     "node-fetch": "^2.7.0",
-    "vitepress": "^1.6.3"
+    "puppeteer": "^24.9.0",
+    "vitepress": "^1.6.3",
+    "vitepress-export-pdf": "^1.0.0"
   },
   "dependencies": {
     "markdown-it-footnote": "^4.0.0"
