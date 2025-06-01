@@ -2,7 +2,7 @@
 
 # Brainstorm
 
-Now that you have a How Might We question, it's time to brainstorm some ideas as a group to try to solve for the question. Generating ideas by yourself can be fairly difficult if you are new to this process. Even experienced designers benefit from working in groups because typically the array of ideas generated in a discussion is far larger than when working alone. For this step, you will partner up with small groups to brainstorm ideas for each person's project. MS Office 365 Whiteboard is recommended. You may also us Zoom's whiteboard tool if it's available, to collaboratively contribute ideas to your group members projects.
+Now that you have a How Might We question, it's time to brainstorm some ideas as a group to try to solve for the question. Generating ideas by yourself can be fairly difficult if you are new to this process. Even experienced designers benefit from working in groups because typically the array of ideas generated in a discussion is far larger than when working alone. For this step, you will partner up with small groups to brainstorm ideas for each person's project. Zoom's whiteboard tool is recommended and free to use to collaboratively contribute ideas to your group members projects. MS Teams and the accompanying whiteboard app is also freely available.
 
 **Note:** If there is a timezone issue, and your group can not find an agreeable meeting time, contact your instructor.
 
@@ -59,10 +59,11 @@ Now that you have a How Might We question, it's time to brainstorm some ideas as
 #### Whiteboard usage, download and export instructions
 
 1. If you are unsure how to use the whiteboard, watch this Youtube.com tutorial: [Start Creating with Zoom Whiteboard](https://www.youtube.com/watch?v=idEfUlb4rRs)
-2. Once you have finished with the brainstorm, click on the 'hamburger' menu button (three bars) and choose "Export."
-3. Select PNG format and click export.
-4. Click the **View in folder** link to see the file and move it to a location on your computer that you can find later.
-5. If you forget to do this during the session, the whiteboard should be accessible via the Zoom App's Whiteboard tab.
+   * You may alternatively use MS Teams and the MS Whiteboard app.
+3. Once you have finished with the brainstorm, click on the 'hamburger' menu button (three bars) and choose "Export."
+4. Select PNG format and click export.
+5. Click the **View in folder** link to see the file and move it to a location on your computer that you can find later.
+6. If you forget to do this during the session, the whiteboard should be accessible via the Zoom App's Whiteboard tab.
 
 
 ## Post work
