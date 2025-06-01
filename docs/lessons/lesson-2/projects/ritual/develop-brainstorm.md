@@ -2,35 +2,29 @@
 
 # Brainstorm
 
-Now that you have a How Might We question, it's time to brainstorm some ideas to try to solve for the question. Generating ideas by yourself can be fairly difficult if you are new to this process. Even experienced designers benefit from working in groups because typically the array of ideas generated in a discussion is far larger than when working alone. For this step, you will partner up with small groups to brainstorm ideas for each person's project. You will use the free Dropbox tool called [Paper](https://paper.dropbox.com/), to collaboratively contribute ideas to your group members projects.
+Now that you have a How Might We question, it's time to brainstorm some ideas as a group to try to solve for the question. Generating ideas by yourself can be fairly difficult if you are new to this process. Even experienced designers benefit from working in groups because typically the array of ideas generated in a discussion is far larger than when working alone. For this step, you will partner up with small groups to brainstorm ideas for each person's project. MS Office 365 Whiteboard is recommended. You may also us Zoom's whiteboard tool if it's available, to collaboratively contribute ideas to your group members projects.
 
 **Note:** If there is a timezone issue, and your group can not find an agreeable meeting time, contact your instructor.
 
-**Note 2:** If you have technical issues, please see "Solving technical issues" section.
-
-View an [Example Paper brainstorm session](https://paper.dropbox.com/doc/Mikes-brainstorm-session-LXePCzDG128wgby37An36).
-
-![Example brainstorm on Dropbox Paper](/assets/example-brainstorm.png)
+![Example Zoom Whiteboard App](/assets/zoom-whiteboard-01.png)
 
 ## Materials and tools
 
-1. Sign up for a free account on [https://paper.dropbox.com/](https://paper.dropbox.com/)
+1. [Penn State Zoom](https://psu.zoom.us/) and integrated Whiteboard App
 2. Computer with microphone and steady Internet connection
-3. Video conference: [Penn State Zoom](https://psu.zoom.us/)
 
 ## Roles and Rules
 
 ### Discussion Rounds
 
 1. **Team Leader:** A Team Leader is randomly assigned and is responsible for coordinating the group's brainstorm session.
-   1. The Team Leader will coordinate a meeting time and send out a video meeting link with the group.
+   1. The Team Leader will coordinate a meeting time and send out a Zoom video meeting link with the group.
 2. There will be one brainstorming round for each person in the group.
-3. Each member should access the Paper website ahead of the brainstorm session and locate the document's share link.
-4. Each round will focus on a different person's HMW question.
-5. **Facilitator Role:** For each round, the person currently in focus for the discussion will be the facilitator of the discussion, and is responsible for downloading their finished whiteboard and uploading the image to the Studio.
+3. Each round will focus on a different person's HMW question.
+4. **Facilitator Role:** For each round, the person currently in focus for the discussion will be the facilitator of the discussion, and is responsible for exporting their whiteboard session and uploading the image to the Canvas.
    1. The facilitator is responsible for keeping time.
-   2. Responsible for downloading their own How Might We...? document in Word (docx) format. 
-6. Spend about 10-15 minutes per round.
+   2. Responsible for uploading their own **How Might We...?** file in `png` format. Please use the Export feature in the Zoom Whiteboard App.
+5. Spend about 10-15 minutes per round.
 
 ### Brainstorming
 
@@ -45,8 +39,8 @@ View an [Example Paper brainstorm session](https://paper.dropbox.com/doc/Mikes-b
 ### Before the brainstorm session
 
 1. Read the Roles and Rules.
-2. Access [https://paper.dropbox.com/](https://paper.dropbox.com/).
-3. **Team Leader:** Collect group member links to share with group \(contact group members prior to the call via email if needed\). Setup a group video, and invite group members. 
+2. **Team Leader:** Setup a group Zoom video and invite group members.
+3. **Members:** Ensure Zoom is installed, log-in with your PSU account, test your mic and video.
 
 ### During the brainstorm session
 
@@ -56,23 +50,23 @@ View an [Example Paper brainstorm session](https://paper.dropbox.com/doc/Mikes-b
 4. The Facilitator will write the HMW question at the top of the document.
 5. The group will spend up to 15 minutes generating ideas for the HMW question.
    * After 10 minutes: As a group, briefly discuss which ideas you like.
-6. The next facilitator sets a timer for 15 minutes.
-7. Repeat steps 4-6 until all group members have taken their turn. You are now finished the brainstorming session.
-   * Make sure download the Paper doc, in Word (docx) format.
-   * Thank each other for their contributions and end the session.
+6. Facilitator exports their whiteboard to their computer, and ensures there are no errors or ommisions.
+7. The next facilitator starts a new whiteboard and sets a timer for 15 minutes.
+8. Repeat steps 4-6 until all group members have taken their turn. You are now finished the brainstorming session.
+   * Make sure everyone has their whiteboard files exported.
+   * Thank everyone for their contributions and end the session.
    
-#### Download and export instructions
+#### Whiteboard usage, download and export instructions
 
-1. Once you have finished with the brainstorm, click on the 'more' menu button (three dots) and choose "Download."
-2. Select Word (docx) format and again choose "Download."
-3. Once the file has been generated, choose "Download" again.
+1. If you are unsure how to use the whiteboard, watch this Youtube.com tutorial: [Start Creating with Zoom Whiteboard](https://www.youtube.com/watch?v=idEfUlb4rRs)
+2. Once you have finished with the brainstorm, click on the 'hamburger' menu button (three bars) and choose "Export."
+3. Select PNG format and click export.
+4. Click the **View in folder** link to see the file and move it to a location on your computer that you can find later.
+5. If you forget to do this during the session, the whiteboard should be accessible via the Zoom App's Whiteboard tab.
 
-![Paper download menu](/assets/paper-download-menu.png)
-
-![Paper download link](/assets/paper-download-link.png)
 
 ## Post work
 Use the file format indicated in each step. You must obtain prior approval to deviate from these upload requirements. Please check that your work has uploaded properly.
 
 1. Follow **download and export** instructions to download the brainstorm document in Word (docx) format. 
-2. Upload the `.docx` file to studio.
+2. Upload the `.png` file to studio.
