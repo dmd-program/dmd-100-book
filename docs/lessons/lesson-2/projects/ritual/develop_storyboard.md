@@ -6,7 +6,7 @@ Refer to the ideas generated during the brainstorm. Did any strike you as intere
 
 The storyboard is a sequence of drawings or images that communicate what the ritual is and how it will occur. This will give others the opportunity to provide feedback, and forces the designer to think about all of the key decisions in more detail. This storyboard should be fairly abstract, and does not need to reference the app at all.
 
-_**IMPORTANT:** The storyboard should show a person performing the ritual. It should not show any screen-based content. _
+**IMPORTANT:** The storyboard should show a person performing the ritual. It should not show any screen-based content.
 
 Review the Introduction page for this project, and recall that while you are trying to help your subject, the point is not to optimize efficiency but to create a meaningful ritual. **Do not make a traditional to-do list or calendar app**. 
 
