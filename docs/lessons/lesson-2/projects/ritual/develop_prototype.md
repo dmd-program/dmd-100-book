@@ -31,9 +31,9 @@ You will be able to crop and adjust the color of your images in Figma (which you
 - [Windows](http://www.tech-recipes.com/rx/56624/how-to-rotate-crop-photos-in-windows-10/)
 - [Mac OS](https://support.apple.com/guide/preview/crop-resize-or-rotate-an-image-prvw2015/mac)
 
-💁 Figma tutorials are provided on the next page.**
+💁 Figma tutorials are provided on the next page.
 
-## Instructions**
+## Instructions
 
 ### A. Creating wireframes
 
