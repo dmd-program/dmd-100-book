@@ -43,4 +43,4 @@ Please allow at least 60-75 minutes to complete this activity.
 
 Use the exact indicated file format. You must obtain prior approval to deviate from these upload requirements.
 
-1. Upload photos or scans of your journal pages in `.jpg` or `.png` format. Make sure that your documentation images are clear and readable.
+1. Post your work to the discussion board. Upload photos or scans of your journal pages in `.jpg` or `.png` format. Make sure that your documentation images are clear and readable.
