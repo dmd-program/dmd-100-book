@@ -9,8 +9,16 @@ In this activity, you will be gathering information about the raw materials avai
 1. **Take Stock:** Photograph materials and objects from around your household or that you discard, or commonly acquire for free with other things that you buy. Of these materials, what might be useful?
 2. **Local materials:** Go to a supermarket, hardware, craft supply store, or any other store that may have raw materials you can use. Photograph and document potential materials, objects, fasteners. Pay attention to the inexpensive or bulk products.
 
+### Exporting to a PDF format
+
+**Tutorials for software applications:**
+
+* [Google Slides](https://www.youtube.com/watch?v=D1WhvsQeY6w)
+* [Microsoft Powerpoint](https://support.office.com/en-US/article/Save-PowerPoint-presentations-as-PDF-files-9B5C786B-9C6E-4FE6-81F6-9372F77C47C8)
+* [Keynote](https://www.youtube.com/watch?v=AkWqdqOUUjk)
+
 ## Post work
 
 Use the exact indicated file format. You must obtain prior approval to deviate from these upload requirements.
 
-1. Upload 5 to 10 `.jpg` or `.png` photographs of materials. **Do not take screenshots or include images from websites. These materials should be local to you.**
+1. Include 5 to 10 photographs of materials in a `.pdf`. **Do not take screenshots or include images from websites. These materials should be local to you.**
