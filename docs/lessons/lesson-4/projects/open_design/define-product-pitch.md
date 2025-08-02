@@ -24,7 +24,7 @@ Create a document file with the following:
    3. Who is the toy designed for?
    4. What does it do? How does it work?
    5. What materials is it made of?
-   6. How much does it cost?
+   6. How much does it cost to make with the materials you have selected?
 5. Design pitch
    1. I will design a(n) **\(toy name\)** for **\(target user\).** The key changes include **(list key changes)**.
       * An example pitch might be, **"I will design a finger puppet game for older children. Key changes to finger puppets include a way to allow a child to alter the face of the puppet and the incorporation of game rules that foster conversational skills."**
