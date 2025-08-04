@@ -13,10 +13,10 @@ Carefully observe someone attempting to use the kit. Take notes of what you noti
 3. Write observational notes as they go through the process, and any insights that you discover. It may be helpful to ask your participant to talk through their thought process as they are putting things together. Help your user through any parts of the process that they get stuck on, and make a note of it.
 4. Keep track of how long it takes your participant to follow your instructions.
 5. After your user finished, ask them some followup questions:
-  - What did you like about using the kit?
-  - What didn't you like? Why is that?
-  - What could be better?
-  - What were you feeling while following the instructions?
+   - What did you like about using the kit?
+   - What didn't you like? Why is that?
+   - What could be better?
+   - What were you feeling while following the instructions?
 
 ## Post work
 
