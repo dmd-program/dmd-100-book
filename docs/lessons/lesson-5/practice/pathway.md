@@ -8,7 +8,7 @@ In this activity, you will respond to a series of questions aimed at helping you
 
 ## Part 1: Pathway Questionnaire
 
-[MS Word Document File Download](https://github.com/dmd-program/dmd-100-sp17/raw/aa1852a1f5fa257c4c6c794d3071bc5f4dca586d/assets/pathway-questionnaire.docx)
+[MS Word Document File Download](https://github.com/dmd-program/dmd-100-book/raw/dbe10c4fa3b9fba1824e41b022210f2e52135a19/docs/assets/pathway-questionnaire.docx)
 
 The following questions are designed to help you think about what you may want or need related to your learning goals. For example, if you know that you would need to have an internship to achieve your goal, you would mention a type of internship and some possible companies: "I will need experience from a 3D animation internship at a large studio similar to Pixar or BlueSky." Ensure that your answers are very specific.
 
@@ -47,12 +47,11 @@ Now that you have completed the questionnaire, use your answers to write a learn
    * Rewrite your other questionnaire responses as a few concise paragraphs to communicate how you will achieve your learning goals.
    * The _**Statement of Intent**_ must be a minimum of 300 words and no more than 500 words.
 3. **Pathway Schedule:**
-   * Include a dated list of the things you will need to acquire or accomplish. Example: _"December 2018: find a list of animation studios to apply to, February 2019: Apply for 3D animation internships"_
+   * Include a dated list of the things you will need to acquire or accomplish. Example: _"December 20XX: find a list of animation studios to apply to, February 20XX: Apply for 3D animation internships"_
 
 ## Post work
 
-1. Upload the your completed questionnaire from **Part 1** as `questionnaire.doc` to the Canvas assignment:
-2. Upload the `learning-strategy.doc` from **Part 2** to the Canvas assignment:
+1. Upload the a completed questionnaire for **Part 1** and **Part 2** as `lastname-firstname-pathway-questionnaire.doc` to the Canvas assignment
 
 
 
