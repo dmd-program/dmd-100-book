@@ -27,11 +27,11 @@ This project asks you to do something that has elements of novelty, to be resour
 8. Parts manifest
   1. List and name each distinct part that will be constructed or used and how many will be needed.
 9. Step by step instructions for one object variant.
+  1. Include photos, drawings, figures, diagrams, templates, and any other visual information that may aid the understanding of the instructions. 
 
-## Instructions
+## Submission instructions
 
-1. If you do you not have skills to use professional layout software like Adobe Illustrator or InDesign, use word processing or presentation software to create the instructions.
-    - Include photos, drawings, figures, diagrams, templates, and any other visual information that may aid the understanding of the instructions. 
+1. If you do you not have skills to use advanced layout software like Adobe InDesign, use word processing software such as MS Word to create the instructions.
 2. Export the instructions in `.pdf` format.
 
 ## Post work
