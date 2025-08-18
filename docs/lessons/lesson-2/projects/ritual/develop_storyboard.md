@@ -48,7 +48,7 @@ There are many descriptions available of what a ritual is and how it functions. 
 
 Use the file format indicated in each step. You must obtain prior approval to deviate from these upload requirements. Please check that your work has uploaded properly.
 
-1. Submit the Storyboard to the studio as a scanned or well-photographed image.
+1. Submit the Storyboard as a scanned or well-photographed image in either `.pdf`, `.jpg`, or `.png` formats.
 
 
 
