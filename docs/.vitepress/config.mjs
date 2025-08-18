@@ -71,6 +71,15 @@ const config = {
     
     context.head.push(['meta', { name: 'rights', content: `This work is licensed under a Creative Commons License: https://creativecommons.org/licenses/${licensePath}/` }]);
     context.head.push(['meta', { property: 'schema:license', content: `https://creativecommons.org/licenses/${licensePath}/` }]);
+    
+    // Cache busting for embedded pages - force browsers to always check for updates
+    context.head.push(['meta', { 'http-equiv': 'Cache-Control', content: 'no-cache, no-store, must-revalidate' }]);
+    context.head.push(['meta', { 'http-equiv': 'Pragma', content: 'no-cache' }]);
+    context.head.push(['meta', { 'http-equiv': 'Expires', content: '0' }]);
+    
+    // Add build timestamp for debugging cache issues
+    const buildTime = new Date().toISOString();
+    context.head.push(['meta', { name: 'build-time', content: buildTime }]);
   },
   
   themeConfig: {
