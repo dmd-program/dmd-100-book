@@ -10,10 +10,11 @@ In this phase, you will use a tool called Twine to create an interactive narrati
 
 ## Story requirements
 
-1. **Your story must have a title**. "Untitled" is an acceptable title. "My class project" or something similar is not an acceptable title unless the content of the story is actually about a class project.
-2. You must have a minimum of **five critical pathway nodes** \(events\). These nodes can correspond to the plot structure, however, this is not required. Your narrative should take a viewer no longer than 10 minutes to get through the critical pathway.
-3. **Branching nodes are optional**. You can use branching nodes to elaborate on backstory, settings, drill-downs into characters, to explore sub plots, and anything else you think would be interesting and contribute to the telling of the narrative.
-4. These are the baseline requirements. If you wish to develop the story using Twine's javascript capabilities, and more tightly control the visual look and feel with CSS styling,  that is great. However, it is not expected since this is not a web development project. The story is the priority.
+1. As mentioned in the project introduction, the story must explore plausible, civic-minded ideas for a more positive future.
+2. **Your story must have a title**. "Untitled" is an acceptable title. "My class project" or something similar is not an acceptable title unless the content of the story is actually about a class project.
+3. You must have a minimum of **five critical pathway nodes** \(events\). These nodes can correspond to the plot structure, however, this is not required. Your narrative should take a viewer no longer than 10 minutes to get through the critical pathway.
+4. **Branching nodes are optional**. You can use branching nodes to elaborate on backstory, settings, drill-downs into characters, to explore sub plots, and anything else you think would be interesting and contribute to the telling of the narrative.
+5. These are the baseline requirements. If you wish to develop the story using Twine's javascript capabilities, and more tightly control the visual look and feel with CSS styling,  that is great. However, it is not expected since this is not a web development project. The story is the priority.
 
 ## Instructions
 
@@ -27,12 +28,10 @@ In this phase, you will use a tool called Twine to create an interactive narrati
 
 ## Post work
 
-Submit a `.html` file by following the instructions above. You must obtain prior approval to deviate from these upload requirements.
+* Submit a functional `.html` file by following the instructions above.
+* Alternatively, you may create a `.zip` archive containing the `.html` file, and upload the `.zip` file.
 
-* Upload the `.html` file to studio. 
-* Alternatively, you may create a `.zip` archive containing the `.html` file, and upload the `.zip` file to studio.
-
-**IMPORTANT:** Make sure the file you submit to Studio is a `.html` file. It should not be a public web URL (https://...) or a local filepath (user:///...)
+**IMPORTANT:** Make sure the file you submit is a `.html` file. It should not be a public web URL (https://...) or a local filepath (user:///...)
 
 
 
