@@ -8,6 +8,10 @@ const outputCsvFile = 'external_links_report.csv'; // Output file name
 const urlPattern = /https?:\/\/[^\s\"'`\)\]]+/g; // Regex to find URLs
 const requestTimeout = 5000; // Timeout for checking URLs in milliseconds (e.g., 5000 = 5 seconds)
 const concurrentChecks = 10; // How many URLs to check simultaneously
+
+// GitHub repository configuration for generating links
+const githubRepo = 'dmd-program/dmd-100-book'; // GitHub owner/repo
+const githubBranch = 'main'; // Default branch name
 // --- End Configuration ---
 
 const scriptDir = __dirname;
@@ -41,7 +45,7 @@ function walkDir(dir) {
         if (stat.isDirectory()) {
             walkDir(filePath); // Recurse into subdirectories
         } else if (stat.isFile() && file.endsWith('.md')) {
-            const relativeFilePath = path.relative(workspaceRoot, filePath); // Keep path relative to workspace root for report
+            const relativeFilePath = path.relative(vitepressDir, filePath); // Keep path relative to project root for report
             // console.log(`Scanning: ${relativeFilePath}`); // Less verbose during check
             try {
                 const content = fs.readFileSync(filePath, 'utf-8');
@@ -140,8 +144,23 @@ const linksWithStatus = []; // Stores [url, filePath, line, status]
             const header = 'URL,FilePath,LineNumber,Status\n'; // Added Status column
             const rows = linksWithStatus.map(link => {
                 // Basic CSV escaping: double quotes around fields containing commas or quotes
-                return link.map(field => {
+                return link.map((field, index) => {
                     const fieldStr = String(field);
+                    
+                    // For the FilePath column (index 1), create a clickable GitHub link with line number
+                    if (index === 1) {
+                        const lineNumber = link[2]; // Get line number from the link array
+                        // Create GitHub URL to the specific line in the file
+                        const githubUrl = `https://github.com/${githubRepo}/blob/${githubBranch}/${fieldStr}#L${lineNumber}`;
+                        
+                        // Return the GitHub URL, properly escaped for CSV
+                        if (githubUrl.includes(',') || githubUrl.includes('"') || githubUrl.includes('\n')) {
+                            return `"${githubUrl.replace(/"/g, '""')}"`;
+                        }
+                        return githubUrl;
+                    }
+                    
+                    // For other fields, use normal CSV escaping
                     if (fieldStr.includes(',') || fieldStr.includes('"') || fieldStr.includes('\n')) {
                         return `"${fieldStr.replace(/"/g, '""')}"`;
                     }
