@@ -93,7 +93,13 @@ This project includes a script to find and check the status of external links wi
 ### Content API Generator
 
 *   **Script Location**: `scripts/generate-content-api.mjs`
-*   **Functionality**: This script is automatically executed as part of the `npm run docs:build` process. It scans the built Markdown content or source files to create a structured JSON representation (`content-api.json`) of the site's content or metadata. Consult the script's source code for specific details on what data it extracts and how it's structured.
+*   **JSON API URL**: [`https://dmd-program.github.io/dmd-100-book/api/content-api.json`](https://dmd-program.github.io/dmd-100-book/api/content-api.json)
+*   **Functionality**: This script is automatically executed as part of the `npm run docs:build` process. It scans the built Markdown content or source files to create a structured JSON representation (`content-api.json`) of the site's content hierarchical structure, including:
+    *   Site title and description
+    *   Complete course outline with lessons, topics, readings, projects, and activities
+    *   Page titles and relative links for all content
+    *   Nested structure following the VitePress sidebar organization
+*   **Use Cases**: This API can be used to programmatically access the course structure for integration with other systems, building custom navigation interfaces, or generating alternative views of the content.
 
 ## Common Cartridge (IMSCC) Export
 
