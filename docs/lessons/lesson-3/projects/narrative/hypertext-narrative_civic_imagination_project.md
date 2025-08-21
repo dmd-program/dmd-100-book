@@ -4,7 +4,7 @@
 
 ## Brief
 
-For this project, you will create a fictional hypertext fiction with an open-source application called Twine focused on building a better future world, set in the year 2047. The main goal of this project is to create **plausible**, civic-minded design patterns for improving the future. A hypertext fiction is a fictional story that is read by progressing through a series of story nodes containing hypertext links, with each link leading to another node in the story. You will follow a design process that will help you generate ideas, create characters and plot, incorporate feedback, and iterate towards a final work.
+For this project, you will create a fictional hypertext fiction with an open-source application called Twine focused on building a better future world, set 30 years in future. The main goal of this project is to create **plausible**, civic-minded design patterns for improving the future. A hypertext fiction is a fictional story that is read by progressing through a series of story nodes containing hypertext links, with each link leading to another node in the story. You will follow a design process that will help you generate ideas, create characters and plot, incorporate feedback, and iterate towards a final work.
 
 ### Tools and materials
 
