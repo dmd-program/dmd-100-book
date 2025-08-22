@@ -378,6 +378,7 @@ const config = {
               { text: 'Develop: Instructions', link: '/lessons/lesson-4/projects/open_design/develop_instructions' },
               { text: 'Develop: Test', link: '/lessons/lesson-4/projects/open_design/develop_user_testing' },
               { text: 'Develop: Iterate', link: '/lessons/lesson-4/projects/open_design/develop-iterate' },
+              { text: 'Develop: Feedback', link: '/lessons/lesson-4/projects/open_design/develop-feedback' },
               { text: 'Deliver: Project documentation', link: '/lessons/lesson-4/projects/open_design/deliver_open_design' }
             ]
           }
