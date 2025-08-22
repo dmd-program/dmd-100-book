@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import footnote from 'markdown-it-footnote'
+import { oerSchemaPlugin } from '../../vitepress-plugin/index.js'
 
 
 
@@ -39,6 +40,7 @@ const config = {
   markdown: {
     config: (md) => {
       md.use(footnote)
+      md.use(oerSchemaPlugin)
     }
   },
   
@@ -413,7 +415,8 @@ const config = {
           }
         ]
       },
-      { text: 'License', link: '/LICENSE' }
+      { text: 'License', link: '/LICENSE' },
+      // { text: 'OER Schema', link: '/oer-schema-test' }
     ],
 
     editLink: {
