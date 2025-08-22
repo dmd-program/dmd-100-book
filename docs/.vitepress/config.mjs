@@ -130,8 +130,7 @@ const config = {
           { text: 'Feedback and critique', link: '/introduction/feedback-and-critique' },
           { text: 'Technology', link: '/introduction/technology' },
           { text: 'Writing Guidelines', link: '/introduction/writing_guidelines' },
-          { text: 'Requirements', link: '/introduction/requirements' },
-          { text: '🔬 OER Schema Test Page', link: '/oer-schema-test' }
+          { text: 'Requirements', link: '/introduction/requirements' }
         ]
       },
       {
@@ -416,7 +415,8 @@ const config = {
           }
         ]
       },
-      { text: 'License', link: '/LICENSE' }
+      { text: 'License', link: '/LICENSE' },
+      // { text: 'OER Schema', link: '/oer-schema-test' }
     ],
 
     editLink: {
